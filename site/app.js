@@ -3843,6 +3843,572 @@ function buildYearMatrix(years, colLabels, matrixValues, color, options = {}) {
   return container;
 }
 
+function buildBarChart(labels, values, color, options = {}) {
+  const container = document.createElement("div");
+  container.className = "bar-chart";
+  const maxVal = Math.max(...values, 1);
+  const barCount = labels.length;
+  const emptyColor = options.emptyColor || DEFAULT_COLORS[0];
+  const tooltipFormatter = options.tooltipFormatter || null;
+  const maxBarHeight = options.maxBarHeight || 120;
+
+  const barsRow = document.createElement("div");
+  barsRow.className = "bar-chart-bars";
+  barsRow.style.height = `${maxBarHeight}px`;
+
+  const labelsRow = document.createElement("div");
+  labelsRow.className = "bar-chart-labels";
+
+  values.forEach((value, index) => {
+    const barWrap = document.createElement("div");
+    barWrap.className = "bar-chart-bar-wrap";
+
+    const bar = document.createElement("div");
+    bar.className = "bar-chart-bar";
+    const heightPct = maxVal > 0 ? (value / maxVal) * 100 : 0;
+    bar.style.height = `${heightPct}%`;
+    bar.style.background = value > 0 ? heatColor(color, value, maxVal) : emptyColor;
+    if (value > 0) {
+      bar.style.minHeight = "2px";
+    }
+
+    if (tooltipFormatter) {
+      const tooltipText = tooltipFormatter(labels[index], value, index);
+      attachTooltip(bar, tooltipText);
+    }
+
+    barWrap.appendChild(bar);
+    barsRow.appendChild(barWrap);
+  });
+
+  labels.forEach((label, index) => {
+    const labelEl = document.createElement("div");
+    labelEl.className = "bar-chart-label";
+    labelEl.textContent = label;
+    if (barCount > 24) {
+      labelEl.classList.add("bar-chart-label-compact");
+    }
+    labelsRow.appendChild(labelEl);
+  });
+
+  container.appendChild(barsRow);
+  container.appendChild(labelsRow);
+  return container;
+}
+
+function getWeekDateRange(year, weekNum) {
+  const jan1 = new Date(year, 0, 1);
+  const jan1Day = jan1.getDay();
+  const startOffset = (weekNum - 1) * 7 - jan1Day;
+  const weekStart = new Date(year, 0, 1 + startOffset);
+  const weekEnd = new Date(weekStart);
+  weekEnd.setDate(weekEnd.getDate() + 6);
+  const fmtDate = (d) => `${MONTHS[d.getMonth()]} ${d.getDate()}`;
+  return `${fmtDate(weekStart)} - ${fmtDate(weekEnd)}`;
+}
+
+function buildWeeklyBarChartSection(payload, types, years, color, units, options = {}) {
+  const card = document.createElement("div");
+  card.className = "card bar-chart-card";
+
+  const body = document.createElement("div");
+  body.className = "bar-chart-card-body";
+
+  const metricChipRow = document.createElement("div");
+  metricChipRow.className = "bar-chart-metric-chips";
+
+  const aggregateYears = payload.aggregates || {};
+  const selectedYearSet = new Set(years.map(Number));
+  const normalizedUnits = normalizeUnits(units || payload.units || DEFAULT_UNITS);
+
+  let activeMetricKey = null;
+
+  const getWeeklyData = (metricKey) => {
+    const weeklyByYear = {};
+    years.forEach((year) => {
+      weeklyByYear[year] = new Array(53).fill(0);
+    });
+
+    years.forEach((year) => {
+      const yearData = aggregateYears[String(year)] || {};
+      types.forEach((type) => {
+        const entries = yearData[type] || {};
+        Object.entries(entries).forEach(([dateStr, entry]) => {
+          const date = new Date(`${dateStr}T00:00:00`);
+          if (Number.isNaN(date.getTime())) return;
+          const week = weekOfYear(date);
+          if (week < 1 || week > 52) return;
+          if (metricKey === "distance") {
+            weeklyByYear[year][week - 1] += entry.distance || 0;
+          } else if (metricKey === "moving_time") {
+            weeklyByYear[year][week - 1] += entry.moving_time || 0;
+          } else if (metricKey === "elevation_gain") {
+            weeklyByYear[year][week - 1] += entry.elevation_gain || 0;
+          } else {
+            weeklyByYear[year][week - 1] += entry.count || 0;
+          }
+        });
+      });
+    });
+    return weeklyByYear;
+  };
+
+  const chartsContainer = document.createElement("div");
+  chartsContainer.className = "bar-chart-years";
+
+  const renderCharts = () => {
+    chartsContainer.innerHTML = "";
+    const weeklyByYear = getWeeklyData(activeMetricKey);
+    const sortedYears = years.slice().sort((a, b) => b - a);
+
+    sortedYears.forEach((year) => {
+      const values = weeklyByYear[year] || new Array(53).fill(0);
+      const labels = values.map((_, i) => ((i + 1) % 4 === 1 ? `W${i + 1}` : ""));
+
+      const yearWrap = document.createElement("div");
+      yearWrap.className = "bar-chart-year-section";
+
+      const yearLabel = document.createElement("div");
+      yearLabel.className = "bar-chart-year-label";
+      yearLabel.textContent = String(year);
+
+      const chart = buildBarChart(labels, values, color, {
+        maxBarHeight: 80,
+        tooltipFormatter: (label, value, index) => {
+          const weekNum = index + 1;
+          const range = getWeekDateRange(year, weekNum);
+          const lines = [`${year} · Week ${weekNum}`, range];
+          if (activeMetricKey) {
+            lines.push(`${METRIC_LABEL_BY_KEY[activeMetricKey] || "Value"}: ${formatMetricTotal(activeMetricKey, value, normalizedUnits)}`);
+          } else {
+            lines.push(`${value} ${value === 1 ? "activity" : "activities"}`);
+          }
+          return lines.join("\n");
+        },
+      });
+
+      yearWrap.appendChild(yearLabel);
+      yearWrap.appendChild(chart);
+      chartsContainer.appendChild(yearWrap);
+    });
+  };
+
+  const metricOptions = [
+    { key: null, label: "Activities" },
+    { key: "distance", label: "Distance" },
+    { key: "moving_time", label: "Time" },
+    { key: "elevation_gain", label: "Elevation" },
+  ];
+
+  metricOptions.forEach((item) => {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "bar-chart-metric-chip";
+    chip.textContent = item.label;
+    if (item.key === activeMetricKey) {
+      chip.classList.add("active");
+    }
+    chip.addEventListener("click", () => {
+      activeMetricKey = item.key;
+      metricChipRow.querySelectorAll(".bar-chart-metric-chip").forEach((c) => {
+        c.classList.toggle("active", c === chip);
+      });
+      renderCharts();
+    });
+    metricChipRow.appendChild(chip);
+  });
+
+  renderCharts();
+
+  body.appendChild(metricChipRow);
+  body.appendChild(chartsContainer);
+  card.appendChild(body);
+  return card;
+}
+
+function buildMonthlyBarChartSection(payload, types, years, color, units, options = {}) {
+  const card = document.createElement("div");
+  card.className = "card bar-chart-card";
+
+  const body = document.createElement("div");
+  body.className = "bar-chart-card-body";
+
+  const metricChipRow = document.createElement("div");
+  metricChipRow.className = "bar-chart-metric-chips";
+
+  const aggregateYears = payload.aggregates || {};
+  const normalizedUnits = normalizeUnits(units || payload.units || DEFAULT_UNITS);
+
+  let activeMetricKey = null;
+
+  const getMonthlyData = (metricKey) => {
+    const monthlyByYear = {};
+    years.forEach((year) => {
+      monthlyByYear[year] = new Array(12).fill(0);
+    });
+
+    years.forEach((year) => {
+      const yearData = aggregateYears[String(year)] || {};
+      types.forEach((type) => {
+        const entries = yearData[type] || {};
+        Object.entries(entries).forEach(([dateStr, entry]) => {
+          const date = new Date(`${dateStr}T00:00:00`);
+          if (Number.isNaN(date.getTime())) return;
+          const month = date.getMonth();
+          if (metricKey === "distance") {
+            monthlyByYear[year][month] += entry.distance || 0;
+          } else if (metricKey === "moving_time") {
+            monthlyByYear[year][month] += entry.moving_time || 0;
+          } else if (metricKey === "elevation_gain") {
+            monthlyByYear[year][month] += entry.elevation_gain || 0;
+          } else {
+            monthlyByYear[year][month] += entry.count || 0;
+          }
+        });
+      });
+    });
+    return monthlyByYear;
+  };
+
+  const chartsContainer = document.createElement("div");
+  chartsContainer.className = "bar-chart-years";
+
+  const renderCharts = () => {
+    chartsContainer.innerHTML = "";
+    const monthlyByYear = getMonthlyData(activeMetricKey);
+    const sortedYears = years.slice().sort((a, b) => b - a);
+
+    sortedYears.forEach((year) => {
+      const values = monthlyByYear[year] || new Array(12).fill(0);
+
+      const yearWrap = document.createElement("div");
+      yearWrap.className = "bar-chart-year-section";
+
+      const yearLabel = document.createElement("div");
+      yearLabel.className = "bar-chart-year-label";
+      yearLabel.textContent = String(year);
+
+      const chart = buildBarChart(MONTHS.slice(), values, color, {
+        maxBarHeight: 100,
+        tooltipFormatter: (label, value) => {
+          const lines = [`${year} · ${label}`];
+          if (activeMetricKey) {
+            lines.push(`${METRIC_LABEL_BY_KEY[activeMetricKey] || "Value"}: ${formatMetricTotal(activeMetricKey, value, normalizedUnits)}`);
+          } else {
+            lines.push(`${value} ${value === 1 ? "activity" : "activities"}`);
+          }
+          return lines.join("\n");
+        },
+      });
+
+      yearWrap.appendChild(yearLabel);
+      yearWrap.appendChild(chart);
+      chartsContainer.appendChild(yearWrap);
+    });
+  };
+
+  const metricOptions = [
+    { key: null, label: "Activities" },
+    { key: "distance", label: "Distance" },
+    { key: "moving_time", label: "Time" },
+    { key: "elevation_gain", label: "Elevation" },
+  ];
+
+  metricOptions.forEach((item) => {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.className = "bar-chart-metric-chip";
+    chip.textContent = item.label;
+    if (item.key === activeMetricKey) {
+      chip.classList.add("active");
+    }
+    chip.addEventListener("click", () => {
+      activeMetricKey = item.key;
+      metricChipRow.querySelectorAll(".bar-chart-metric-chip").forEach((c) => {
+        c.classList.toggle("active", c === chip);
+      });
+      renderCharts();
+    });
+    metricChipRow.appendChild(chip);
+  });
+
+  renderCharts();
+
+  body.appendChild(metricChipRow);
+  body.appendChild(chartsContainer);
+  card.appendChild(body);
+  return card;
+}
+
+function buildPersonalRecordsSection(payload, types, years, color, units) {
+  const card = document.createElement("div");
+  card.className = "card personal-records-card";
+
+  const body = document.createElement("div");
+  body.className = "personal-records-body";
+
+  const aggregateYears = payload.aggregates || {};
+  const normalizedUnits = normalizeUnits(units || payload.units || DEFAULT_UNITS);
+
+  const records = {
+    bestDayDistance: { value: 0, date: "", year: 0 },
+    bestDayDuration: { value: 0, date: "", year: 0 },
+    bestDayElevation: { value: 0, date: "", year: 0 },
+    bestDayCount: { value: 0, date: "", year: 0 },
+    longestStreak: { value: 0, startDate: "", endDate: "" },
+    bestWeek: { value: 0, year: 0, week: 0 },
+    bestMonth: { value: 0, year: 0, month: 0 },
+    bestYear: { value: 0, year: 0 },
+  };
+
+  const allDates = new Set();
+
+  years.forEach((year) => {
+    const yearData = aggregateYears[String(year)] || {};
+    let yearTotal = 0;
+    const weekTotals = new Array(53).fill(0);
+    const monthTotals = new Array(12).fill(0);
+
+    types.forEach((type) => {
+      const entries = yearData[type] || {};
+      Object.entries(entries).forEach(([dateStr, entry]) => {
+        allDates.add(dateStr);
+        const count = entry.count || 0;
+        const distance = entry.distance || 0;
+        const movingTime = entry.moving_time || 0;
+        const elevationGain = entry.elevation_gain || 0;
+
+        yearTotal += count;
+
+        const date = new Date(`${dateStr}T00:00:00`);
+        if (!Number.isNaN(date.getTime())) {
+          const week = weekOfYear(date);
+          if (week >= 1 && week <= 52) {
+            weekTotals[week - 1] += count;
+          }
+          monthTotals[date.getMonth()] += count;
+        }
+
+        if (distance > records.bestDayDistance.value) {
+          records.bestDayDistance = { value: distance, date: dateStr, year };
+        }
+        if (movingTime > records.bestDayDuration.value) {
+          records.bestDayDuration = { value: movingTime, date: dateStr, year };
+        }
+        if (elevationGain > records.bestDayElevation.value) {
+          records.bestDayElevation = { value: elevationGain, date: dateStr, year };
+        }
+        if (count > records.bestDayCount.value) {
+          records.bestDayCount = { value: count, date: dateStr, year };
+        }
+      });
+    });
+
+    weekTotals.forEach((total, weekIdx) => {
+      if (total > records.bestWeek.value) {
+        records.bestWeek = { value: total, year, week: weekIdx + 1 };
+      }
+    });
+
+    monthTotals.forEach((total, monthIdx) => {
+      if (total > records.bestMonth.value) {
+        records.bestMonth = { value: total, year, month: monthIdx };
+      }
+    });
+
+    if (yearTotal > records.bestYear.value) {
+      records.bestYear = { value: yearTotal, year };
+    }
+  });
+
+  const sortedDates = Array.from(allDates).sort();
+  let currentStreak = 0;
+  let streakStart = "";
+  let bestStreak = 0;
+  let bestStreakStart = "";
+  let bestStreakEnd = "";
+
+  for (let i = 0; i < sortedDates.length; i++) {
+    if (i === 0) {
+      currentStreak = 1;
+      streakStart = sortedDates[i];
+    } else {
+      const prev = new Date(`${sortedDates[i - 1]}T00:00:00`);
+      const curr = new Date(`${sortedDates[i]}T00:00:00`);
+      const diffDays = Math.round((curr - prev) / MS_PER_DAY);
+      if (diffDays === 1) {
+        currentStreak++;
+      } else {
+        if (currentStreak > bestStreak) {
+          bestStreak = currentStreak;
+          bestStreakStart = streakStart;
+          bestStreakEnd = sortedDates[i - 1];
+        }
+        currentStreak = 1;
+        streakStart = sortedDates[i];
+      }
+    }
+  }
+  if (currentStreak > bestStreak) {
+    bestStreak = currentStreak;
+    bestStreakStart = streakStart;
+    bestStreakEnd = sortedDates[sortedDates.length - 1] || "";
+  }
+  records.longestStreak = { value: bestStreak, startDate: bestStreakStart, endDate: bestStreakEnd };
+
+  const currentStreakInfo = computeCurrentStreak(sortedDates);
+
+  const recordItems = [];
+
+  if (records.longestStreak.value > 0) {
+    recordItems.push({
+      label: "Longest Streak",
+      value: `${records.longestStreak.value} day${records.longestStreak.value !== 1 ? "s" : ""}`,
+      detail: records.longestStreak.startDate && records.longestStreak.endDate
+        ? `${records.longestStreak.startDate} to ${records.longestStreak.endDate}`
+        : "",
+    });
+  }
+
+  if (currentStreakInfo.value > 0) {
+    recordItems.push({
+      label: "Current Streak",
+      value: `${currentStreakInfo.value} day${currentStreakInfo.value !== 1 ? "s" : ""}`,
+      detail: currentStreakInfo.startDate
+        ? `Since ${currentStreakInfo.startDate}`
+        : "",
+    });
+  }
+
+  if (records.bestDayCount.value > 0) {
+    recordItems.push({
+      label: "Most Active Day",
+      value: `${records.bestDayCount.value} ${records.bestDayCount.value === 1 ? "activity" : "activities"}`,
+      detail: records.bestDayCount.date,
+    });
+  }
+
+  if (records.bestDayDistance.value > 0) {
+    recordItems.push({
+      label: "Best Day (Distance)",
+      value: formatDistance(records.bestDayDistance.value, normalizedUnits),
+      detail: records.bestDayDistance.date,
+    });
+  }
+
+  if (records.bestDayDuration.value > 0) {
+    recordItems.push({
+      label: "Best Day (Duration)",
+      value: formatDuration(records.bestDayDuration.value),
+      detail: records.bestDayDuration.date,
+    });
+  }
+
+  if (records.bestDayElevation.value > 0) {
+    recordItems.push({
+      label: "Best Day (Elevation)",
+      value: formatElevation(records.bestDayElevation.value, normalizedUnits),
+      detail: records.bestDayElevation.date,
+    });
+  }
+
+  if (records.bestWeek.value > 0) {
+    const range = getWeekDateRange(records.bestWeek.year, records.bestWeek.week);
+    recordItems.push({
+      label: "Best Week",
+      value: `${records.bestWeek.value} ${records.bestWeek.value === 1 ? "activity" : "activities"}`,
+      detail: `${records.bestWeek.year} · Week ${records.bestWeek.week} (${range})`,
+    });
+  }
+
+  if (records.bestMonth.value > 0) {
+    recordItems.push({
+      label: "Best Month",
+      value: `${records.bestMonth.value} ${records.bestMonth.value === 1 ? "activity" : "activities"}`,
+      detail: `${MONTHS[records.bestMonth.month]} ${records.bestMonth.year}`,
+    });
+  }
+
+  if (records.bestYear.value > 0) {
+    recordItems.push({
+      label: "Best Year",
+      value: `${records.bestYear.value} ${records.bestYear.value === 1 ? "activity" : "activities"}`,
+      detail: String(records.bestYear.year),
+    });
+  }
+
+  if (!recordItems.length) {
+    const empty = document.createElement("div");
+    empty.className = "stat-subtitle";
+    empty.textContent = "No personal records yet.";
+    body.appendChild(empty);
+    card.appendChild(body);
+    return card;
+  }
+
+  const grid = document.createElement("div");
+  grid.className = "personal-records-grid";
+
+  recordItems.forEach((item) => {
+    const recordCard = document.createElement("div");
+    recordCard.className = "personal-record-item";
+
+    const labelEl = document.createElement("div");
+    labelEl.className = "personal-record-label";
+    labelEl.textContent = item.label;
+
+    const valueEl = document.createElement("div");
+    valueEl.className = "personal-record-value";
+    valueEl.textContent = item.value;
+
+    const detailEl = document.createElement("div");
+    detailEl.className = "personal-record-detail";
+    detailEl.textContent = item.detail;
+
+    recordCard.appendChild(labelEl);
+    recordCard.appendChild(valueEl);
+    recordCard.appendChild(detailEl);
+
+    if (item.detail) {
+      attachTooltip(recordCard, `${item.label}\n${item.value}\n${item.detail}`);
+    }
+
+    grid.appendChild(recordCard);
+  });
+
+  body.appendChild(grid);
+  card.appendChild(body);
+  return card;
+}
+
+function computeCurrentStreak(sortedDates) {
+  if (!sortedDates.length) return { value: 0, startDate: "" };
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+
+  const lastDate = sortedDates[sortedDates.length - 1];
+  const lastDateObj = new Date(`${lastDate}T00:00:00`);
+  const diffFromToday = Math.round((today - lastDateObj) / MS_PER_DAY);
+
+  if (diffFromToday > 1) return { value: 0, startDate: "" };
+
+  let streak = 1;
+  let streakStart = lastDate;
+  for (let i = sortedDates.length - 2; i >= 0; i--) {
+    const curr = new Date(`${sortedDates[i + 1]}T00:00:00`);
+    const prev = new Date(`${sortedDates[i]}T00:00:00`);
+    const diff = Math.round((curr - prev) / MS_PER_DAY);
+    if (diff === 1) {
+      streak++;
+      streakStart = sortedDates[i];
+    } else {
+      break;
+    }
+  }
+  return { value: streak, startDate: streakStart };
+}
+
 function renderLoadError(error) {
   const detail = error && typeof error.message === "string" && error.message
     ? error.message
@@ -4329,6 +4895,19 @@ async function init() {
             ),
           );
         }
+        if (cardYears.length > 0) {
+          const prCard = buildPersonalRecordsSection(payload, types, cardYears, frequencyCardColor, currentUnits);
+          setCardScrollKey(prCard, `${combinedSelectionKey}:personal-records`);
+          list.appendChild(buildLabeledCardRow("Personal Records", prCard, "personal-records"));
+
+          const monthlyCard = buildMonthlyBarChartSection(payload, types, cardYears, frequencyCardColor, currentUnits);
+          setCardScrollKey(monthlyCard, `${combinedSelectionKey}:monthly`);
+          list.appendChild(buildLabeledCardRow("Monthly Activity", monthlyCard, "monthly"));
+
+          const weeklyCard = buildWeeklyBarChartSection(payload, types, cardYears, frequencyCardColor, currentUnits);
+          setCardScrollKey(weeklyCard, `${combinedSelectionKey}:weekly`);
+          list.appendChild(buildLabeledCardRow("Weekly Activity", weeklyCard, "weekly"));
+        }
         cardYears.forEach((year) => {
           const yearData = payload.aggregates?.[String(year)] || {};
           const aggregates = combineYearAggregates(yearData, types);
@@ -4400,6 +4979,20 @@ async function init() {
                 "frequency",
               ),
             );
+          }
+          if (cardYears.length > 0) {
+            const typeColor = getColors(type)[4];
+            const prCard = buildPersonalRecordsSection(payload, [type], cardYears, typeColor, currentUnits);
+            setCardScrollKey(prCard, `${typeCardKey}:personal-records`);
+            list.appendChild(buildLabeledCardRow("Personal Records", prCard, "personal-records"));
+
+            const monthlyCard = buildMonthlyBarChartSection(payload, [type], cardYears, typeColor, currentUnits);
+            setCardScrollKey(monthlyCard, `${typeCardKey}:monthly`);
+            list.appendChild(buildLabeledCardRow("Monthly Activity", monthlyCard, "monthly"));
+
+            const weeklyCard = buildWeeklyBarChartSection(payload, [type], cardYears, typeColor, currentUnits);
+            setCardScrollKey(weeklyCard, `${typeCardKey}:weekly`);
+            list.appendChild(buildLabeledCardRow("Weekly Activity", weeklyCard, "weekly"));
           }
           cardYears.forEach((year) => {
             const aggregates = payload.aggregates?.[String(year)]?.[type] || {};

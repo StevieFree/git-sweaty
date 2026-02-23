@@ -2014,6 +2014,193 @@
         }
       }
 
+      /* Bar chart styles */
+      .bar-chart-card {
+        padding: var(--space-5) var(--space-7);
+      }
+
+      .bar-chart-card-body {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-5);
+      }
+
+      .bar-chart-metric-chips {
+        display: flex;
+        gap: var(--space-2);
+        flex-wrap: wrap;
+      }
+
+      .bar-chart-metric-chip {
+        background: rgba(255, 255, 255, 0.06);
+        color: var(--muted);
+        border: 1px solid rgba(148, 163, 184, 0.2);
+        border-radius: 8px;
+        padding: 3px 10px;
+        font-size: 12px;
+        font-family: "JetBrains Mono", monospace;
+        cursor: pointer;
+        transition: background 0.15s, color 0.15s, border-color 0.15s;
+      }
+
+      .bar-chart-metric-chip.active {
+        background: rgba(56, 189, 248, 0.18);
+        color: var(--text);
+        border-color: rgba(56, 189, 248, 0.4);
+      }
+
+      .bar-chart-metric-chip:hover,
+      .bar-chart-metric-chip:focus-visible {
+        background: rgba(255, 255, 255, 0.1);
+        color: var(--text);
+      }
+
+      .bar-chart-years {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-7);
+      }
+
+      .bar-chart-year-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-2);
+      }
+
+      .bar-chart-year-label {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 12px;
+        color: var(--muted);
+        letter-spacing: 0.5px;
+      }
+
+      .bar-chart {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        overflow-x: auto;
+        min-width: 0;
+      }
+
+      .bar-chart-bars {
+        display: flex;
+        align-items: flex-end;
+        gap: 1px;
+        min-width: 0;
+      }
+
+      .bar-chart-bar-wrap {
+        flex: 1 1 0;
+        min-width: 2px;
+        max-width: 16px;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .bar-chart-bar {
+        width: 100%;
+        border-radius: 1px 1px 0 0;
+        transition: filter 0.12s;
+        cursor: default;
+      }
+
+      .bar-chart-bar:hover {
+        filter: brightness(1.3);
+      }
+
+      .bar-chart-labels {
+        display: flex;
+        gap: 1px;
+        min-width: 0;
+      }
+
+      .bar-chart-label {
+        flex: 1 1 0;
+        min-width: 2px;
+        max-width: 16px;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 8px;
+        color: var(--muted);
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+
+      .bar-chart-label-compact {
+        font-size: 7px;
+      }
+
+      /* Personal records styles */
+      .personal-records-card {
+        padding: var(--space-5) var(--space-7);
+      }
+
+      .personal-records-body {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-5);
+      }
+
+      .personal-records-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: var(--space-4);
+      }
+
+      .personal-record-item {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(148, 163, 184, 0.12);
+        border-radius: 10px;
+        padding: var(--space-4) var(--space-5);
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        transition: background 0.15s, border-color 0.15s;
+      }
+
+      .personal-record-item:hover {
+        background: rgba(255, 255, 255, 0.07);
+        border-color: rgba(148, 163, 184, 0.25);
+      }
+
+      .personal-record-label {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 11px;
+        color: var(--muted);
+        letter-spacing: 0.3px;
+      }
+
+      .personal-record-value {
+        font-family: "Space Grotesk", system-ui, sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--text);
+        line-height: 1.2;
+      }
+
+      .personal-record-detail {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 10px;
+        color: var(--muted);
+        opacity: 0.7;
+        margin-top: 2px;
+      }
+
+      @media (max-width: 900px) {
+        .personal-records-grid {
+          grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        }
+
+        .bar-chart-bar-wrap {
+          max-width: 10px;
+        }
+
+        .bar-chart-label {
+          max-width: 10px;
+        }
+      }
+
     </style>
   </head>
   <body>
