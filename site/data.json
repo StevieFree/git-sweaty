@@ -24164,6 +24164,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/17513877922",
       "year": 2026
+    },
+    {
+      "date": "2026-02-25",
+      "hour": 14,
+      "name": "Klammspitze",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17524448075",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46544,6 +46553,15 @@
           "distance": 46947.3,
           "elevation_gain": 450.0,
           "moving_time": 5409.0
+        },
+        "2026-02-25": {
+          "activity_ids": [
+            "17524448075"
+          ],
+          "count": 1,
+          "distance": 67463.7,
+          "elevation_gain": 457.0,
+          "moving_time": 7210.0
         }
       },
       "VirtualRun": {
@@ -46741,7 +46759,7 @@
       }
     }
   },
-  "generated_at": "2026-02-25T16:01:44.202321+00:00",
+  "generated_at": "2026-02-26T15:53:27.564137+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
