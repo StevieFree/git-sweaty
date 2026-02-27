@@ -24173,6 +24173,24 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/17524448075",
       "year": 2026
+    },
+    {
+      "date": "2026-02-26",
+      "hour": 20,
+      "name": "Pioneer -3",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17537531176",
+      "year": 2026
+    },
+    {
+      "date": "2026-02-27",
+      "hour": 6,
+      "name": "Morning Weight Training",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "url": "https://www.strava.com/activities/17541199210",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46562,6 +46580,15 @@
           "distance": 67463.7,
           "elevation_gain": 457.0,
           "moving_time": 7210.0
+        },
+        "2026-02-26": {
+          "activity_ids": [
+            "17537531176"
+          ],
+          "count": 1,
+          "distance": 31052.3,
+          "elevation_gain": 223.0,
+          "moving_time": 3830.0
         }
       },
       "VirtualRun": {
@@ -46755,11 +46782,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 1505.0
+        },
+        "2026-02-27": {
+          "activity_ids": [
+            "17541199210"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1293.0
         }
       }
     }
   },
-  "generated_at": "2026-02-26T15:53:27.564137+00:00",
+  "generated_at": "2026-02-27T15:36:47.688024+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
