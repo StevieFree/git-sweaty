@@ -34942,5 +34942,31 @@
     "start_date_local": "2026-02-27T06:07:48Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-02-28",
+    "distance": 32168.0,
+    "elevation_gain": 251.0,
+    "id": "17556694465",
+    "moving_time": 3380.0,
+    "name": "Threshold Hold Marathon",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-02-28T11:16:05Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-01",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17565715702",
+    "moving_time": 777.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-01T07:11:44Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
