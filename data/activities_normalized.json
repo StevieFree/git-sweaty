@@ -34968,5 +34968,57 @@
     "start_date_local": "2026-03-01T07:11:44Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-01",
+    "distance": 5056.8,
+    "elevation_gain": 38.0,
+    "id": "17568540636",
+    "moving_time": 644.0,
+    "name": "Zwift - Champs-\u00c9lys\u00e9es in Paris",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-01T10:57:07Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-01",
+    "distance": 20480.1,
+    "elevation_gain": 217.0,
+    "id": "17568866144",
+    "moving_time": 1840.0,
+    "name": "Race: Zwift Games 2026 - Stage 2",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-01T11:12:19Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-01",
+    "distance": 43017.5,
+    "elevation_gain": 121.0,
+    "id": "17569493161",
+    "moving_time": 4514.0,
+    "name": "Zwift - Tick Tock in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-01T11:43:25Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-02",
+    "distance": 46396.4,
+    "elevation_gain": 294.0,
+    "id": "17575742208",
+    "moving_time": 5142.0,
+    "name": "Monday Movin",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-02T05:13:48Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
