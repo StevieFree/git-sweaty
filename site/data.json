@@ -24254,6 +24254,33 @@
       "type": "WeightTraining",
       "url": "https://www.strava.com/activities/17587869330",
       "year": 2026
+    },
+    {
+      "date": "2026-03-03",
+      "hour": 18,
+      "name": "Zwift - Flat Out Fast in Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17595804555",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-03",
+      "hour": 19,
+      "name": "Race: Zwift Games 2026 - Stage 3",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17596023893",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-04",
+      "hour": 6,
+      "name": "Morning Weight Training",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "url": "https://www.strava.com/activities/17600533415",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46681,6 +46708,16 @@
           "distance": 46396.4,
           "elevation_gain": 294.0,
           "moving_time": 5142.0
+        },
+        "2026-03-03": {
+          "activity_ids": [
+            "17595804555",
+            "17596023893"
+          ],
+          "count": 2,
+          "distance": 32448.4,
+          "elevation_gain": 315.0,
+          "moving_time": 3192.0
         }
       },
       "VirtualRun": {
@@ -46901,11 +46938,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 797.0
+        },
+        "2026-03-04": {
+          "activity_ids": [
+            "17600533415"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 751.0
         }
       }
     }
   },
-  "generated_at": "2026-03-03T15:45:36.837773+00:00",
+  "generated_at": "2026-03-04T15:39:48.036631+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

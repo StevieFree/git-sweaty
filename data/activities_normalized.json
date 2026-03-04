@@ -35033,5 +35033,44 @@
     "start_date_local": "2026-03-03T06:15:45Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-03",
+    "distance": 8007.0,
+    "elevation_gain": 26.0,
+    "id": "17595804555",
+    "moving_time": 883.0,
+    "name": "Zwift - Flat Out Fast in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-03T18:52:01Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-03",
+    "distance": 24441.4,
+    "elevation_gain": 289.0,
+    "id": "17596023893",
+    "moving_time": 2309.0,
+    "name": "Race: Zwift Games 2026 - Stage 3",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-03T19:11:26Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-04",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17600533415",
+    "moving_time": 751.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-04T06:15:38Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
