@@ -35072,5 +35072,18 @@
     "start_date_local": "2026-03-04T06:15:38Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-05",
+    "distance": 35302.1,
+    "elevation_gain": 68.0,
+    "id": "17619983483",
+    "moving_time": 3619.0,
+    "name": "Workout 1: Alpecin-Premier Tech Team Camp",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-05T17:25:29Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
