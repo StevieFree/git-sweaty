@@ -35085,5 +35085,31 @@
     "start_date_local": "2026-03-05T17:25:29Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-03-06",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17627068876",
+    "moving_time": 662.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-06T10:34:05Z",
+    "type": "WeightTraining",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-06",
+    "distance": 61263.6,
+    "elevation_gain": 290.0,
+    "id": "17630084574",
+    "moving_time": 6615.0,
+    "name": "Sick Cycle",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-06T15:16:50Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
