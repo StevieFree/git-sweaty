@@ -24317,6 +24317,24 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/17641419311",
       "year": 2026
+    },
+    {
+      "date": "2026-03-08",
+      "hour": 10,
+      "name": "Workout 2: Alpecin-Premier Tech Team Camp & Then Some",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17652516991",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-09",
+      "hour": 6,
+      "name": "Morning Weight Training",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "url": "https://www.strava.com/activities/17659132644",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46781,6 +46799,15 @@
           "distance": 64106.8,
           "elevation_gain": 418.0,
           "moving_time": 6854.0
+        },
+        "2026-03-08": {
+          "activity_ids": [
+            "17652516991"
+          ],
+          "count": 1,
+          "distance": 67570.8,
+          "elevation_gain": 404.0,
+          "moving_time": 7232.0
         }
       },
       "VirtualRun": {
@@ -47019,11 +47046,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 662.0
+        },
+        "2026-03-09": {
+          "activity_ids": [
+            "17659132644"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 905.0
         }
       }
     }
   },
-  "generated_at": "2026-03-08T15:22:45.133996+00:00",
+  "generated_at": "2026-03-09T15:57:48.838279+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

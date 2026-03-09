@@ -35124,5 +35124,31 @@
     "start_date_local": "2026-03-07T13:20:18Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-03-08",
+    "distance": 67570.8,
+    "elevation_gain": 404.0,
+    "id": "17652516991",
+    "moving_time": 7232.0,
+    "name": "Workout 2: Alpecin-Premier Tech Team Camp & Then Some",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-08T10:20:53Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-09",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17659132644",
+    "moving_time": 905.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-09T06:19:19Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
