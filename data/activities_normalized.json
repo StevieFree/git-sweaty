@@ -35150,5 +35150,18 @@
     "start_date_local": "2026-03-09T06:19:19Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-09",
+    "distance": 42530.9,
+    "elevation_gain": 230.0,
+    "id": "17667624351",
+    "moving_time": 4612.0,
+    "name": "Cumberland -3",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-09T19:12:59Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
