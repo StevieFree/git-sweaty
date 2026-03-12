@@ -35176,5 +35176,31 @@
     "start_date_local": "2026-03-10T16:03:43Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-03-11",
+    "distance": 6837.8,
+    "elevation_gain": 12.0,
+    "id": "17688774810",
+    "moving_time": 757.0,
+    "name": "Zwift - Tempus Fugit in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-11T12:55:35Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-11",
+    "distance": 30956.1,
+    "elevation_gain": 372.0,
+    "id": "17689407405",
+    "moving_time": 2988.0,
+    "name": "Race: Zwift Games 2026 - Stage 4",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-11T13:12:23Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
