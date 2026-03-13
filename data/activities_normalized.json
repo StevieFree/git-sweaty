@@ -35202,5 +35202,18 @@
     "start_date_local": "2026-03-11T13:12:23Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-03-13",
+    "distance": 42653.9,
+    "elevation_gain": 334.0,
+    "id": "17708707727",
+    "moving_time": 4516.0,
+    "name": "Sukaisan",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-13T07:42:26Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
