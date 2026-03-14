@@ -35215,5 +35215,18 @@
     "start_date_local": "2026-03-13T07:42:26Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-03-13",
+    "distance": 1002.9,
+    "elevation_gain": 0.0,
+    "id": "17713189539",
+    "moving_time": 3364.0,
+    "name": "Parents Win \u2026 Again \u26bd\ufe0f",
+    "raw_activity_type": "Soccer",
+    "raw_type": "Soccer",
+    "start_date_local": "2026-03-13T16:33:10Z",
+    "type": "Soccer",
+    "year": 2026
   }
 ]
