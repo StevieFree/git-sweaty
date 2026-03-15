@@ -35228,5 +35228,31 @@
     "start_date_local": "2026-03-13T16:33:10Z",
     "type": "Soccer",
     "year": 2026
+  },
+  {
+    "date": "2026-03-14",
+    "distance": 67809.3,
+    "elevation_gain": 429.0,
+    "id": "17724861396",
+    "moving_time": 7244.0,
+    "name": "Amadeo",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-14T15:10:43Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-15",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17732423201",
+    "moving_time": 901.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-15T08:21:15Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
