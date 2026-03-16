@@ -24407,6 +24407,15 @@
       "type": "WeightTraining",
       "url": "https://www.strava.com/activities/17732423201",
       "year": 2026
+    },
+    {
+      "date": "2026-03-15",
+      "hour": 13,
+      "name": "Eisenhower",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17736469975",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46937,6 +46946,15 @@
           "distance": 67809.3,
           "elevation_gain": 429.0,
           "moving_time": 7244.0
+        },
+        "2026-03-15": {
+          "activity_ids": [
+            "17736469975"
+          ],
+          "count": 1,
+          "distance": 48191.6,
+          "elevation_gain": 404.0,
+          "moving_time": 5413.0
         }
       },
       "VirtualRun": {
@@ -47197,7 +47215,7 @@
       }
     }
   },
-  "generated_at": "2026-03-15T15:27:59.660817+00:00",
+  "generated_at": "2026-03-16T16:04:31.272809+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
