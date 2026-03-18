@@ -35280,5 +35280,31 @@
     "start_date_local": "2026-03-17T06:22:45Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-17",
+    "distance": 4720.6,
+    "elevation_gain": 37.0,
+    "id": "17761536332",
+    "moving_time": 626.0,
+    "name": "Zwift - Champs-\u00c9lys\u00e9es in Paris",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-17T18:57:11Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-17",
+    "distance": 38019.1,
+    "elevation_gain": 588.0,
+    "id": "17761951409",
+    "moving_time": 4230.0,
+    "name": "Race: Stage 5 - Zwift Games 2026",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-17T19:12:15Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
