@@ -24443,6 +24443,24 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/17761951409",
       "year": 2026
+    },
+    {
+      "date": "2026-03-18",
+      "hour": 16,
+      "name": "Phoenix -3",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17773322278",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-19",
+      "hour": 6,
+      "name": "Morning Weight Training",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "url": "https://www.strava.com/activities/17778558067",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46992,6 +47010,15 @@
           "distance": 42739.7,
           "elevation_gain": 625.0,
           "moving_time": 4856.0
+        },
+        "2026-03-18": {
+          "activity_ids": [
+            "17773322278"
+          ],
+          "count": 1,
+          "distance": 39443.1,
+          "elevation_gain": 643.0,
+          "moving_time": 5429.0
         }
       },
       "VirtualRun": {
@@ -47257,11 +47284,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 628.0
+        },
+        "2026-03-19": {
+          "activity_ids": [
+            "17778558067"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 609.0
         }
       }
     }
   },
-  "generated_at": "2026-03-18T16:07:35.331193+00:00",
+  "generated_at": "2026-03-19T15:54:04.104282+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

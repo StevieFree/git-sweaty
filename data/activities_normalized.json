@@ -35306,5 +35306,31 @@
     "start_date_local": "2026-03-17T19:12:15Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-03-18",
+    "distance": 39443.1,
+    "elevation_gain": 643.0,
+    "id": "17773322278",
+    "moving_time": 5429.0,
+    "name": "Phoenix -3",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-18T16:10:28Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-19",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17778558067",
+    "moving_time": 609.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-19T06:26:05Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
