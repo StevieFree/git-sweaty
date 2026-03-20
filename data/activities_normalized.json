@@ -35332,5 +35332,18 @@
     "start_date_local": "2026-03-19T06:26:05Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-19",
+    "distance": 49483.2,
+    "elevation_gain": 242.0,
+    "id": "17786900286",
+    "moving_time": 5425.0,
+    "name": "Septeret",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-19T20:09:01Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
