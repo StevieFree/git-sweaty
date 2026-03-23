@@ -35371,5 +35371,18 @@
     "start_date_local": "2026-03-21T13:37:17Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-03-22",
+    "distance": 16036.2,
+    "elevation_gain": 0.0,
+    "id": "17819871158",
+    "moving_time": 4775.0,
+    "name": "To See What\u2019s What",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-03-22T10:29:34Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
