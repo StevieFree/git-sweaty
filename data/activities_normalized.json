@@ -35384,5 +35384,31 @@
     "start_date_local": "2026-03-22T10:29:34Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-03-23",
+    "distance": 23216.3,
+    "elevation_gain": 198.0,
+    "id": "17835469167",
+    "moving_time": 2849.0,
+    "name": "Red Rock - Active Recovery",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-23T19:46:19Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-24",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17839656736",
+    "moving_time": 858.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-24T06:12:12Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
