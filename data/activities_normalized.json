@@ -35423,5 +35423,31 @@
     "start_date_local": "2026-03-24T16:52:06Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-03-25",
+    "distance": 53189.2,
+    "elevation_gain": 82.0,
+    "id": "17859514393",
+    "moving_time": 5418.0,
+    "name": "Andrews",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-25T15:45:36Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-26",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17864794959",
+    "moving_time": 732.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-26T06:23:49Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
