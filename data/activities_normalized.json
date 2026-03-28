@@ -35449,5 +35449,31 @@
     "start_date_local": "2026-03-26T06:23:49Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-27",
+    "distance": 61497.4,
+    "elevation_gain": 596.0,
+    "id": "17880380791",
+    "moving_time": 7225.0,
+    "name": "Amadeo",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-27T11:40:24Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-28",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17888266817",
+    "moving_time": 785.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-28T06:56:12Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
