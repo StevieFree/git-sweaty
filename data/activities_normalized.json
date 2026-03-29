@@ -35475,5 +35475,57 @@
     "start_date_local": "2026-03-28T06:56:12Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-03-28",
+    "distance": 7804.4,
+    "elevation_gain": 47.0,
+    "id": "17892532215",
+    "moving_time": 888.0,
+    "name": "Zwift - Times Square Circuit in New York",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-28T12:55:10Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-28",
+    "distance": 11530.7,
+    "elevation_gain": 94.0,
+    "id": "17892706494",
+    "moving_time": 1039.0,
+    "name": "Zwift - TT: Stage 6a: Zwift Games: Epiloch",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-28T13:15:44Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-28",
+    "distance": 34356.4,
+    "elevation_gain": 108.0,
+    "id": "17893168399",
+    "moving_time": 3618.0,
+    "name": "Beech",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-28T13:39:24Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-29",
+    "distance": 92566.8,
+    "elevation_gain": 674.0,
+    "id": "17902238757",
+    "moving_time": 10956.0,
+    "name": "Gates",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-03-29T05:36:34Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

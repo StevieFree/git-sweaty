@@ -24560,6 +24560,42 @@
       "type": "WeightTraining",
       "url": "https://www.strava.com/activities/17888266817",
       "year": 2026
+    },
+    {
+      "date": "2026-03-28",
+      "hour": 12,
+      "name": "Zwift - Times Square Circuit in New York",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17892532215",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-28",
+      "hour": 13,
+      "name": "Zwift - TT: Stage 6a: Zwift Games: Epiloch",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17892706494",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-28",
+      "hour": 13,
+      "name": "Beech",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17893168399",
+      "year": 2026
+    },
+    {
+      "date": "2026-03-29",
+      "hour": 5,
+      "name": "Gates",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/17902238757",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47190,6 +47226,26 @@
           "distance": 61497.4,
           "elevation_gain": 596.0,
           "moving_time": 7225.0
+        },
+        "2026-03-28": {
+          "activity_ids": [
+            "17892532215",
+            "17892706494",
+            "17893168399"
+          ],
+          "count": 3,
+          "distance": 53691.5,
+          "elevation_gain": 249.0,
+          "moving_time": 5545.0
+        },
+        "2026-03-29": {
+          "activity_ids": [
+            "17902238757"
+          ],
+          "count": 1,
+          "distance": 92566.8,
+          "elevation_gain": 674.0,
+          "moving_time": 10956.0
         }
       },
       "VirtualRun": {
@@ -47495,7 +47551,7 @@
       }
     }
   },
-  "generated_at": "2026-03-28T15:29:59.100321+00:00",
+  "generated_at": "2026-03-29T15:30:38.785871+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
