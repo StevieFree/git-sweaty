@@ -35495,7 +35495,7 @@
     "elevation_gain": 94.0,
     "id": "17892706494",
     "moving_time": 1039.0,
-    "name": "Zwift - TT: Stage 6a: Zwift Games: Epiloch",
+    "name": "Race: Zwift Games 2026 - Stage 6",
     "raw_activity_type": "VirtualRide",
     "raw_type": "VirtualRide",
     "start_date_local": "2026-03-28T13:15:44Z",
@@ -35526,6 +35526,19 @@
     "raw_type": "VirtualRide",
     "start_date_local": "2026-03-29T05:36:34Z",
     "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-03-30",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17911798970",
+    "moving_time": 721.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-03-30T06:29:27Z",
+    "type": "WeightTraining",
     "year": 2026
   }
 ]
