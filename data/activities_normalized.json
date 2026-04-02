@@ -35566,5 +35566,31 @@
     "start_date_local": "2026-03-31T16:08:37Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-04-01",
+    "distance": 58048.8,
+    "elevation_gain": 249.0,
+    "id": "17945387789",
+    "moving_time": 6312.0,
+    "name": "Gibraltar -3",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-04-01T19:33:07Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-02",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "17949318483",
+    "moving_time": 1083.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-04-02T06:08:30Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
