@@ -35592,5 +35592,18 @@
     "start_date_local": "2026-04-02T06:08:30Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-04-02",
+    "distance": 33451.4,
+    "elevation_gain": 205.0,
+    "id": "17955939742",
+    "moving_time": 3692.0,
+    "name": "FAILED: Red Lake +8",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-04-02T16:40:54Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
