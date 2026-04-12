@@ -24668,6 +24668,24 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/18059004483",
       "year": 2026
+    },
+    {
+      "date": "2026-04-11",
+      "hour": 11,
+      "name": "Rips with Reilly",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18071008146",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-12",
+      "hour": 6,
+      "name": "Morning Weight Training",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "url": "https://www.strava.com/activities/18079528472",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46703,6 +46721,15 @@
           "distance": 73492.0,
           "elevation_gain": 704.0,
           "moving_time": 8635.0
+        },
+        "2026-04-11": {
+          "activity_ids": [
+            "18071008146"
+          ],
+          "count": 1,
+          "distance": 69126.7,
+          "elevation_gain": 665.0,
+          "moving_time": 8512.0
         }
       },
       "Run": {
@@ -47691,11 +47718,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 1083.0
+        },
+        "2026-04-12": {
+          "activity_ids": [
+            "18079528472"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1392.0
         }
       }
     }
   },
-  "generated_at": "2026-04-11T15:33:07.167316+00:00",
+  "generated_at": "2026-04-12T15:35:05.977049+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

@@ -35631,5 +35631,31 @@
     "start_date_local": "2026-04-10T14:23:48Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-04-11",
+    "distance": 69126.7,
+    "elevation_gain": 665.0,
+    "id": "18071008146",
+    "moving_time": 8512.0,
+    "name": "Rips with Reilly",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-04-11T11:11:43Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-12",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "18079528472",
+    "moving_time": 1392.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-04-12T06:35:44Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
