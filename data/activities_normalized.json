@@ -35670,5 +35670,31 @@
     "start_date_local": "2026-04-12T13:30:48Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-04-13",
+    "distance": 13023.5,
+    "elevation_gain": 85.0,
+    "id": "18095942746",
+    "moving_time": 3885.0,
+    "name": "The \u201cUltimate Tourist\u201d Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-13T15:04:28Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-14",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "18102734253",
+    "moving_time": 3046.0,
+    "name": "Morning Workout",
+    "raw_activity_type": "Workout",
+    "raw_type": "Workout",
+    "start_date_local": "2026-04-14T05:59:55Z",
+    "type": "Workout",
+    "year": 2026
   }
 ]
