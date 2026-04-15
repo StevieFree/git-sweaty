@@ -35696,5 +35696,18 @@
     "start_date_local": "2026-04-14T05:59:55Z",
     "type": "Workout",
     "year": 2026
+  },
+  {
+    "date": "2026-04-15",
+    "distance": 9133.2,
+    "elevation_gain": 109.0,
+    "id": "18116490472",
+    "moving_time": 2798.0,
+    "name": "Manhattan - Brooklyn - Manhattan",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-15T05:59:33Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
