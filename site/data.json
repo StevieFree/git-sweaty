@@ -24722,6 +24722,15 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/18116490472",
       "year": 2026
+    },
+    {
+      "date": "2026-04-17",
+      "hour": 6,
+      "name": "NYC Adventures",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18144331120",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46840,6 +46849,15 @@
           "distance": 9133.2,
           "elevation_gain": 109.0,
           "moving_time": 2798.0
+        },
+        "2026-04-17": {
+          "activity_ids": [
+            "18144331120"
+          ],
+          "count": 1,
+          "distance": 21328.4,
+          "elevation_gain": 59.0,
+          "moving_time": 6177.0
         }
       },
       "Soccer": {
@@ -47805,7 +47823,7 @@
       }
     }
   },
-  "generated_at": "2026-04-16T16:22:34.833479+00:00",
+  "generated_at": "2026-04-17T15:59:52.423480+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
