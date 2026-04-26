@@ -35761,5 +35761,31 @@
     "start_date_local": "2026-04-20T06:45:27Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-04-25",
+    "distance": 49179.9,
+    "elevation_gain": 270.0,
+    "id": "18256461104",
+    "moving_time": 5619.0,
+    "name": "TrainerRoad: Izaak Walton -2",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-04-25T11:27:02Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-04-26",
+    "distance": 131457.0,
+    "elevation_gain": 449.0,
+    "id": "18267318286",
+    "moving_time": 12965.0,
+    "name": "Sunday Morning Indoor Riding",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-04-26T05:03:03Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
