@@ -24794,6 +24794,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/18291278842",
       "year": 2026
+    },
+    {
+      "date": "2026-04-29",
+      "hour": 13,
+      "name": "Lost In London Run",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18306465272",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46930,6 +46939,15 @@
           "distance": 21328.4,
           "elevation_gain": 59.0,
           "moving_time": 6177.0
+        },
+        "2026-04-29": {
+          "activity_ids": [
+            "18306465272"
+          ],
+          "count": 1,
+          "distance": 11749.3,
+          "elevation_gain": 104.0,
+          "moving_time": 3687.0
         }
       },
       "Soccer": {
@@ -47949,7 +47967,7 @@
       }
     }
   },
-  "generated_at": "2026-04-28T16:50:20.673879+00:00",
+  "generated_at": "2026-04-29T16:26:53.654046+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

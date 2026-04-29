@@ -35813,5 +35813,18 @@
     "start_date_local": "2026-04-28T04:50:03Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-04-29",
+    "distance": 11749.3,
+    "elevation_gain": 104.0,
+    "id": "18306465272",
+    "moving_time": 3687.0,
+    "name": "Lost In London Run",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-29T13:55:13Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
