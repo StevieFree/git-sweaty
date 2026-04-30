@@ -35826,5 +35826,18 @@
     "start_date_local": "2026-04-29T13:55:13Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-04-30",
+    "distance": 14725.1,
+    "elevation_gain": 98.0,
+    "id": "18316730427",
+    "moving_time": 4508.0,
+    "name": "Bond, James Bond",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-04-30T09:10:08Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
