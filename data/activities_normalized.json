@@ -35839,5 +35839,18 @@
     "start_date_local": "2026-04-30T09:10:08Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-05-01",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "18334394122",
+    "moving_time": 2704.0,
+    "name": "Best Hotel Gym",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-05-01T15:31:18Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
