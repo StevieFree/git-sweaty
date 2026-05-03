@@ -35852,5 +35852,31 @@
     "start_date_local": "2026-05-01T15:31:18Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-05-02",
+    "distance": 16906.8,
+    "elevation_gain": 76.0,
+    "id": "18351309191",
+    "moving_time": 1836.0,
+    "name": "TechnoGym for the win",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-05-02T14:11:05Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-03",
+    "distance": 12051.8,
+    "elevation_gain": 67.0,
+    "id": "18355567381",
+    "moving_time": 3971.0,
+    "name": "Match Day #YNWA",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-05-03T08:25:18Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
