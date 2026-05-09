@@ -35891,5 +35891,18 @@
     "start_date_local": "2026-05-05T05:50:00Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-05-09",
+    "distance": 63412.8,
+    "elevation_gain": 604.0,
+    "id": "18438968115",
+    "moving_time": 7637.0,
+    "name": "Morning Dew",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-05-09T05:24:07Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
