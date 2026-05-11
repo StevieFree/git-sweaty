@@ -35917,5 +35917,18 @@
     "start_date_local": "2026-05-10T06:51:02Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-05-10",
+    "distance": 63616.3,
+    "elevation_gain": 639.0,
+    "id": "18458501635",
+    "moving_time": 7412.0,
+    "name": "For The Mothers",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-05-10T15:52:10Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]

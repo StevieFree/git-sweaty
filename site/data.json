@@ -24866,6 +24866,15 @@
       "type": "WeightTraining",
       "url": "https://www.strava.com/activities/18452338417",
       "year": 2026
+    },
+    {
+      "date": "2026-05-10",
+      "hour": 15,
+      "name": "For The Mothers",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18458501635",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46928,6 +46937,15 @@
           "distance": 63412.8,
           "elevation_gain": 604.0,
           "moving_time": 7637.0
+        },
+        "2026-05-10": {
+          "activity_ids": [
+            "18458501635"
+          ],
+          "count": 1,
+          "distance": 63616.3,
+          "elevation_gain": 639.0,
+          "moving_time": 7412.0
         }
       },
       "Run": {
@@ -48093,7 +48111,7 @@
       }
     }
   },
-  "generated_at": "2026-05-10T15:52:54.401934+00:00",
+  "generated_at": "2026-05-11T17:23:55.062621+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
