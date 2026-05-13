@@ -24884,6 +24884,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/18476373428",
       "year": 2026
+    },
+    {
+      "date": "2026-05-13",
+      "hour": 5,
+      "name": "Morning Sky Was Fire",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18490670550",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -46955,6 +46964,15 @@
           "distance": 63616.3,
           "elevation_gain": 639.0,
           "moving_time": 7412.0
+        },
+        "2026-05-13": {
+          "activity_ids": [
+            "18490670550"
+          ],
+          "count": 1,
+          "distance": 52993.1,
+          "elevation_gain": 458.0,
+          "moving_time": 6731.0
         }
       },
       "Run": {
@@ -48129,7 +48147,7 @@
       }
     }
   },
-  "generated_at": "2026-05-12T17:09:45.256818+00:00",
+  "generated_at": "2026-05-13T17:15:01.295657+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

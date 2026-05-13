@@ -35943,5 +35943,18 @@
     "start_date_local": "2026-05-12T04:57:53Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-05-13",
+    "distance": 52993.1,
+    "elevation_gain": 458.0,
+    "id": "18490670550",
+    "moving_time": 6731.0,
+    "name": "Morning Sky Was Fire",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-05-13T05:14:59Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
