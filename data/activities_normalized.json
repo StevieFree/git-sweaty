@@ -35956,5 +35956,18 @@
     "start_date_local": "2026-05-13T05:14:59Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-05-14",
+    "distance": 32902.1,
+    "elevation_gain": 194.0,
+    "id": "18503536521",
+    "moving_time": 3641.0,
+    "name": "TrainerRoad: Pioneer -3",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-05-14T05:31:31Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

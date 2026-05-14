@@ -24893,6 +24893,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/18490670550",
       "year": 2026
+    },
+    {
+      "date": "2026-05-14",
+      "hour": 5,
+      "name": "TrainerRoad: Pioneer -3",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/18503536521",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47741,6 +47750,15 @@
           "distance": 49634.8,
           "elevation_gain": 270.0,
           "moving_time": 5424.0
+        },
+        "2026-05-14": {
+          "activity_ids": [
+            "18503536521"
+          ],
+          "count": 1,
+          "distance": 32902.1,
+          "elevation_gain": 194.0,
+          "moving_time": 3641.0
         }
       },
       "VirtualRun": {
@@ -48147,7 +48165,7 @@
       }
     }
   },
-  "generated_at": "2026-05-13T17:15:01.295657+00:00",
+  "generated_at": "2026-05-14T17:00:15.387984+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
