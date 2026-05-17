@@ -35969,5 +35969,31 @@
     "start_date_local": "2026-05-14T05:31:31Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-05-16",
+    "distance": 49120.5,
+    "elevation_gain": 270.0,
+    "id": "18534160827",
+    "moving_time": 5603.0,
+    "name": "Was Supposed To Be Intervals. Heart Said No.",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-05-16T12:24:26Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-17",
+    "distance": 78166.3,
+    "elevation_gain": 421.0,
+    "id": "18543227105",
+    "moving_time": 8440.0,
+    "name": "TrainerRoad: Beehive +",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-05-17T05:11:59Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
