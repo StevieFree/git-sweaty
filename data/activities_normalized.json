@@ -35995,5 +35995,18 @@
     "start_date_local": "2026-05-17T05:11:59Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-05-18",
+    "distance": 101441.0,
+    "elevation_gain": 509.0,
+    "id": "18555154197",
+    "moving_time": 10850.0,
+    "name": "TrainerRoad: Sandy Bay +",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-05-18T05:11:10Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

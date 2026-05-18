@@ -24920,6 +24920,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/18543227105",
       "year": 2026
+    },
+    {
+      "date": "2026-05-18",
+      "hour": 5,
+      "name": "TrainerRoad: Sandy Bay +",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/18555154197",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47795,6 +47804,15 @@
           "distance": 78166.3,
           "elevation_gain": 421.0,
           "moving_time": 8440.0
+        },
+        "2026-05-18": {
+          "activity_ids": [
+            "18555154197"
+          ],
+          "count": 1,
+          "distance": 101441.0,
+          "elevation_gain": 509.0,
+          "moving_time": 10850.0
         }
       },
       "VirtualRun": {
@@ -48201,7 +48219,7 @@
       }
     }
   },
-  "generated_at": "2026-05-17T15:58:07.412424+00:00",
+  "generated_at": "2026-05-18T17:29:16.508477+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
