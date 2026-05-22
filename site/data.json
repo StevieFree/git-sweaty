@@ -24929,6 +24929,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/18555154197",
       "year": 2026
+    },
+    {
+      "date": "2026-05-22",
+      "hour": 5,
+      "name": "not pro riders",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18609088823",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47009,6 +47018,15 @@
           "distance": 52993.1,
           "elevation_gain": 458.0,
           "moving_time": 6731.0
+        },
+        "2026-05-22": {
+          "activity_ids": [
+            "18609088823"
+          ],
+          "count": 1,
+          "distance": 76840.3,
+          "elevation_gain": 720.0,
+          "moving_time": 9856.0
         }
       },
       "Run": {
@@ -48219,7 +48237,7 @@
       }
     }
   },
-  "generated_at": "2026-05-21T17:30:48.415355+00:00",
+  "generated_at": "2026-05-22T17:07:26.459674+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
