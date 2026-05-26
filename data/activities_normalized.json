@@ -36047,5 +36047,18 @@
     "start_date_local": "2026-05-24T06:53:46Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-05-25",
+    "distance": 42108.5,
+    "elevation_gain": 407.0,
+    "id": "18653886679",
+    "moving_time": 5397.0,
+    "name": "Shaking the Legs Out",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-05-25T14:16:40Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]

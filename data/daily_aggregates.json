@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T17:06:08.676523+00:00",
+  "generated_at": "2026-05-26T17:55:34.464525+00:00",
   "years": {
     "2013": {
       "Ride": {
@@ -22096,6 +22096,15 @@
           "distance": 50811.0,
           "elevation_gain": 467.0,
           "moving_time": 6538.0
+        },
+        "2026-05-25": {
+          "activity_ids": [
+            "18653886679"
+          ],
+          "count": 1,
+          "distance": 42108.5,
+          "elevation_gain": 407.0,
+          "moving_time": 5397.0
         }
       },
       "Run": {
