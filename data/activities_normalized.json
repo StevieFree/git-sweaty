@@ -36060,5 +36060,18 @@
     "start_date_local": "2026-05-25T14:16:40Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-05-28",
+    "distance": 57566.6,
+    "elevation_gain": 587.0,
+    "id": "18688955480",
+    "moving_time": 7026.0,
+    "name": "While The Angels Slept",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-05-28T05:10:57Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
