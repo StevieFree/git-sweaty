@@ -24974,6 +24974,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/18688955480",
       "year": 2026
+    },
+    {
+      "date": "2026-05-29",
+      "hour": 5,
+      "name": "All The Espresso",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18702769758",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47090,6 +47099,15 @@
           "distance": 57566.6,
           "elevation_gain": 587.0,
           "moving_time": 7026.0
+        },
+        "2026-05-29": {
+          "activity_ids": [
+            "18702769758"
+          ],
+          "count": 1,
+          "distance": 61697.5,
+          "elevation_gain": 494.0,
+          "moving_time": 8128.0
         }
       },
       "Run": {
@@ -48309,7 +48327,7 @@
       }
     }
   },
-  "generated_at": "2026-05-28T18:11:08.210038+00:00",
+  "generated_at": "2026-05-29T18:11:47.207638+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

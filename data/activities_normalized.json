@@ -36073,5 +36073,18 @@
     "start_date_local": "2026-05-28T05:10:57Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-05-29",
+    "distance": 61697.5,
+    "elevation_gain": 494.0,
+    "id": "18702769758",
+    "moving_time": 8128.0,
+    "name": "All The Espresso",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-05-29T05:13:52Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
