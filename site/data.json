@@ -24983,6 +24983,24 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/18702769758",
       "year": 2026
+    },
+    {
+      "date": "2026-06-01",
+      "hour": 5,
+      "name": "Orlando Tread",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/18739768574",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-01",
+      "hour": 6,
+      "name": "Morning Weight Training",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "url": "https://www.strava.com/activities/18739891765",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47227,6 +47245,15 @@
           "distance": 21346.7,
           "elevation_gain": 102.0,
           "moving_time": 6065.0
+        },
+        "2026-06-01": {
+          "activity_ids": [
+            "18739768574"
+          ],
+          "count": 1,
+          "distance": 8238.0,
+          "elevation_gain": 0.0,
+          "moving_time": 2676.0
         }
       },
       "Soccer": {
@@ -48312,6 +48339,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 996.0
+        },
+        "2026-06-01": {
+          "activity_ids": [
+            "18739891765"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 301.0
         }
       },
       "Workout": {
@@ -48327,7 +48363,7 @@
       }
     }
   },
-  "generated_at": "2026-05-31T16:06:53.833105+00:00",
+  "generated_at": "2026-06-01T19:55:06.976216+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

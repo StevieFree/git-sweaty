@@ -36086,5 +36086,31 @@
     "start_date_local": "2026-05-29T05:13:52Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-06-01",
+    "distance": 8238.0,
+    "elevation_gain": 0.0,
+    "id": "18739768574",
+    "moving_time": 2676.0,
+    "name": "Orlando Tread",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-06-01T05:48:28Z",
+    "type": "Run",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-01",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "18739891765",
+    "moving_time": 301.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-06-01T06:40:54Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
