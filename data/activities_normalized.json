@@ -36112,5 +36112,18 @@
     "start_date_local": "2026-06-01T06:40:54Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-06-06",
+    "distance": 75113.2,
+    "elevation_gain": 928.0,
+    "id": "18810790274",
+    "moving_time": 9471.0,
+    "name": "Gas Plant and Back",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-06T04:58:57Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
