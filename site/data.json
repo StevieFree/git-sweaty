@@ -25019,6 +25019,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/18827984652",
       "year": 2026
+    },
+    {
+      "date": "2026-06-09",
+      "hour": 5,
+      "name": "TrainerRoad: James",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/18850028741",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47984,6 +47993,15 @@
           "distance": 101441.0,
           "elevation_gain": 509.0,
           "moving_time": 10850.0
+        },
+        "2026-06-09": {
+          "activity_ids": [
+            "18850028741"
+          ],
+          "count": 1,
+          "distance": 49803.5,
+          "elevation_gain": 305.0,
+          "moving_time": 5426.0
         }
       },
       "VirtualRun": {
@@ -48399,7 +48417,7 @@
       }
     }
   },
-  "generated_at": "2026-06-08T17:51:29.427908+00:00",
+  "generated_at": "2026-06-09T17:24:21.805122+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
