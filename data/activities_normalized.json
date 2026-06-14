@@ -36151,5 +36151,18 @@
     "start_date_local": "2026-06-09T05:10:59Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-06-13",
+    "distance": 63567.7,
+    "elevation_gain": 637.0,
+    "id": "18910688916",
+    "moving_time": 7195.0,
+    "name": "Not 100. But at least I\u2019m warm",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-13T17:22:44Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]

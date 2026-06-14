@@ -25028,6 +25028,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/18850028741",
       "year": 2026
+    },
+    {
+      "date": "2026-06-13",
+      "hour": 17,
+      "name": "Not 100. But at least I\u2019m warm",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18910688916",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47171,6 +47180,15 @@
           "distance": 60509.4,
           "elevation_gain": 652.0,
           "moving_time": 7729.0
+        },
+        "2026-06-13": {
+          "activity_ids": [
+            "18910688916"
+          ],
+          "count": 1,
+          "distance": 63567.7,
+          "elevation_gain": 637.0,
+          "moving_time": 7195.0
         }
       },
       "Run": {
@@ -48417,7 +48435,7 @@
       }
     }
   },
-  "generated_at": "2026-06-13T16:13:13.648712+00:00",
+  "generated_at": "2026-06-14T16:20:12.209682+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
