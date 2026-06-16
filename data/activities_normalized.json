@@ -36164,5 +36164,18 @@
     "start_date_local": "2026-06-13T17:22:44Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-06-15",
+    "distance": 101519.0,
+    "elevation_gain": 1237.0,
+    "id": "18937831512",
+    "moving_time": 12280.0,
+    "name": "Not Cold. I Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-15T17:47:51Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
