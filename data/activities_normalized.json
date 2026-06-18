@@ -36177,5 +36177,44 @@
     "start_date_local": "2026-06-15T17:47:51Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-06-16",
+    "distance": 34197.6,
+    "elevation_gain": 174.0,
+    "id": "18950211300",
+    "moving_time": 3734.0,
+    "name": "Too Much",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-06-16T15:29:26Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-17",
+    "distance": 55013.7,
+    "elevation_gain": 276.0,
+    "id": "18957379693",
+    "moving_time": 6317.0,
+    "name": "Zwift - Endurance \u2014 fasted Z2",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-06-17T05:04:24Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-06-18",
+    "distance": 41805.8,
+    "elevation_gain": 137.0,
+    "id": "18971091264",
+    "moving_time": 4210.0,
+    "name": "Intervals icu: Threshold 4x8",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-06-18T05:42:18Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
