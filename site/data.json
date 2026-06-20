@@ -25073,6 +25073,24 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/18971091264",
       "year": 2026
+    },
+    {
+      "date": "2026-06-19",
+      "hour": 8,
+      "name": "Cafe Rider w Leblanc",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/18988869812",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-20",
+      "hour": 7,
+      "name": "Morning Weight Training",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "url": "https://www.strava.com/activities/18997252594",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47234,6 +47252,15 @@
           "distance": 101519.0,
           "elevation_gain": 1237.0,
           "moving_time": 12280.0
+        },
+        "2026-06-19": {
+          "activity_ids": [
+            "18988869812"
+          ],
+          "count": 1,
+          "distance": 133688.0,
+          "elevation_gain": 1199.0,
+          "moving_time": 16259.0
         }
       },
       "Run": {
@@ -48492,6 +48519,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 301.0
+        },
+        "2026-06-20": {
+          "activity_ids": [
+            "18997252594"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 951.0
         }
       },
       "Workout": {
@@ -48507,7 +48543,7 @@
       }
     }
   },
-  "generated_at": "2026-06-19T17:18:14.927876+00:00",
+  "generated_at": "2026-06-20T16:16:20.609778+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
