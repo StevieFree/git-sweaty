@@ -36242,5 +36242,18 @@
     "start_date_local": "2026-06-20T07:23:04Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-06-21",
+    "distance": 70202.5,
+    "elevation_gain": 676.0,
+    "id": "19011751755",
+    "moving_time": 9071.0,
+    "name": "For the Fathers",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-21T06:18:33Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
