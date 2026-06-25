@@ -36281,5 +36281,18 @@
     "start_date_local": "2026-06-24T05:28:22Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-06-25",
+    "distance": 62984.8,
+    "elevation_gain": 605.0,
+    "id": "19062102043",
+    "moving_time": 7613.0,
+    "name": "Morning Sunshine",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-25T05:39:54Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
