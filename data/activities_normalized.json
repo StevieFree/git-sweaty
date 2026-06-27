@@ -36294,5 +36294,18 @@
     "start_date_local": "2026-06-25T05:39:54Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-06-26",
+    "distance": 36785.9,
+    "elevation_gain": 153.0,
+    "id": "19078203847",
+    "moving_time": 3936.0,
+    "name": "Intervals icu: Fuelled Threshold 3x9",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-06-26T14:53:20Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

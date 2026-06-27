@@ -25127,6 +25127,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19062102043",
       "year": 2026
+    },
+    {
+      "date": "2026-06-26",
+      "hour": 14,
+      "name": "Intervals icu: Fuelled Threshold 3x9",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19078203847",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48191,6 +48200,15 @@
           "distance": 35092.9,
           "elevation_gain": 275.0,
           "moving_time": 4238.0
+        },
+        "2026-06-26": {
+          "activity_ids": [
+            "19078203847"
+          ],
+          "count": 1,
+          "distance": 36785.9,
+          "elevation_gain": 153.0,
+          "moving_time": 3936.0
         }
       },
       "VirtualRun": {
@@ -48615,7 +48633,7 @@
       }
     }
   },
-  "generated_at": "2026-06-26T16:59:59.724373+00:00",
+  "generated_at": "2026-06-27T16:04:01.060762+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
