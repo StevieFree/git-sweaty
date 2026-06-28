@@ -36307,5 +36307,18 @@
     "start_date_local": "2026-06-26T14:53:20Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-06-27",
+    "distance": 75397.5,
+    "elevation_gain": 453.0,
+    "id": "19092477534",
+    "moving_time": 8889.0,
+    "name": "Intervals icu: Long Endurance \u2014 Z2 Durability",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-06-27T17:12:32Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

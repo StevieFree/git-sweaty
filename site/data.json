@@ -25136,6 +25136,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/19078203847",
       "year": 2026
+    },
+    {
+      "date": "2026-06-27",
+      "hour": 17,
+      "name": "Intervals icu: Long Endurance \u2014 Z2 Durability",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19092477534",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48209,6 +48218,15 @@
           "distance": 36785.9,
           "elevation_gain": 153.0,
           "moving_time": 3936.0
+        },
+        "2026-06-27": {
+          "activity_ids": [
+            "19092477534"
+          ],
+          "count": 1,
+          "distance": 75397.5,
+          "elevation_gain": 453.0,
+          "moving_time": 8889.0
         }
       },
       "VirtualRun": {
@@ -48633,7 +48651,7 @@
       }
     }
   },
-  "generated_at": "2026-06-27T16:04:01.060762+00:00",
+  "generated_at": "2026-06-28T16:08:46.473111+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
