@@ -36320,5 +36320,18 @@
     "start_date_local": "2026-06-27T17:12:32Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-06-28",
+    "distance": 45465.0,
+    "elevation_gain": 154.0,
+    "id": "19105547218",
+    "moving_time": 5115.0,
+    "name": "Intervals icu: Endurance Z2 (fasted, short)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-06-28T19:47:43Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
