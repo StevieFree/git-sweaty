@@ -36359,5 +36359,18 @@
     "start_date_local": "2026-07-01T08:38:05Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-03",
+    "distance": 187610.0,
+    "elevation_gain": 1823.0,
+    "id": "19170067607",
+    "moving_time": 23078.0,
+    "name": "Bike For A Day",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-03T11:02:22Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
