@@ -36372,5 +36372,18 @@
     "start_date_local": "2026-07-03T11:02:22Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-04",
+    "distance": 21250.2,
+    "elevation_gain": 32.0,
+    "id": "19178993951",
+    "moving_time": 2454.0,
+    "name": "Actual Recovery Spin",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-07-04T09:50:39Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

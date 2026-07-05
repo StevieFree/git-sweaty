@@ -25181,6 +25181,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19170067607",
       "year": 2026
+    },
+    {
+      "date": "2026-07-04",
+      "hour": 9,
+      "name": "Actual Recovery Spin",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19178993951",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48299,6 +48308,15 @@
           "distance": 44129.2,
           "elevation_gain": 284.0,
           "moving_time": 4819.0
+        },
+        "2026-07-04": {
+          "activity_ids": [
+            "19178993951"
+          ],
+          "count": 1,
+          "distance": 21250.2,
+          "elevation_gain": 32.0,
+          "moving_time": 2454.0
         }
       },
       "VirtualRun": {
@@ -48723,7 +48741,7 @@
       }
     }
   },
-  "generated_at": "2026-07-04T16:00:39.239145+00:00",
+  "generated_at": "2026-07-05T16:07:27.266152+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
