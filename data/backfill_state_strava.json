@@ -1,2 +1,13 @@
-429: Too Many Requests
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+{
+  "activity_scope": {
+    "exclude_types": [],
+    "include_all_types": true
+  },
+  "after": 0,
+  "completed": true,
+  "last_run_utc": "2026-07-01T15:53:13.854900+00:00",
+  "newest_seen_ts": 1776237784,
+  "next_before": null,
+  "oldest_seen_ts": 1701324483,
+  "rate_limited": false
+}
