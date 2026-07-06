@@ -17,7 +17,7 @@ from provider_fields import (
 from sync_scope import (
     activity_scope_from_config,
     activity_start_ts as _shared_activity_start_ts,
-    start_after_ts as _shared_start_after_ts,
+    resolve_after_ts as _shared_resolve_after_ts,
 )
 from utils import ensure_dir, load_config, merge_sources_enabled, raw_activity_dir, read_json, utc_now, write_json
 
@@ -201,10 +201,6 @@ def _enrich_missing_duration(
 
 def _activity_start_ts(activity: Dict[str, Any]) -> Optional[int]:
     return _shared_activity_start_ts(activity)
-
-
-def _start_after_ts(config: Dict[str, Any]) -> int:
-    return _shared_start_after_ts(config)
 
 
 def _activity_scope(config: Dict[str, Any]) -> Dict[str, Any]:
@@ -601,7 +597,7 @@ def sync_garmin(dry_run: bool, prune_deleted: bool) -> Dict[str, Any]:
     config = load_config()
     sync_cfg = config.get("sync", {}) or {}
     per_page = int(sync_cfg.get("per_page", 200))
-    after = _start_after_ts(config)
+    after = _shared_resolve_after_ts("garmin", config)
     activity_scope = _activity_scope(config)
     recent_days = int(sync_cfg.get("recent_days", 7))
     resume_backfill = bool(sync_cfg.get("resume_backfill", True))

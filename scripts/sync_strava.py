@@ -14,7 +14,7 @@ import requests
 from sync_scope import (
     activity_scope_from_config,
     activity_start_ts,
-    start_after_ts,
+    resolve_after_ts,
 )
 from utils import ensure_dir, load_config, raw_activity_dir, read_json, utc_now, write_json
 
@@ -374,8 +374,10 @@ def _fetch_athlete(token: str, limiter: Optional[RateLimiter]) -> Dict:
 
 
 def _start_after_ts(config: Dict) -> int:
-    # Default behavior remains "no lower bound" when lookback/start are unset.
-    return start_after_ts(config)
+    # Default behavior remains "no lower bound" when lookback/start are unset;
+    # with merge_sources, fall back to the newest activity from other sources
+    # so switching providers only fetches newer data.
+    return resolve_after_ts("strava", config)
 
 
 def _activity_scope(config: Dict) -> Dict:

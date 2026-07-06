@@ -36,6 +36,65 @@ class SyncScopeTests(unittest.TestCase):
     def test_start_after_ts_defaults_to_zero_with_no_limits(self) -> None:
         self.assertEqual(sync_scope.start_after_ts({"sync": {}}), 0)
 
+    def _write_state(self, data_dir: str, filename: str, newest_seen_ts: int) -> None:
+        import json
+
+        with open(os.path.join(data_dir, filename), "w", encoding="utf-8") as f:
+            json.dump({"newest_seen_ts": newest_seen_ts, "completed": True}, f)
+
+    def test_cross_source_floor_uses_other_source_newest_when_merging(self) -> None:
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as data_dir:
+            self._write_state(data_dir, "backfill_state_strava.json", 1751385600)
+            config = {"sync": {"merge_sources": True}}
+            # Switching to Garmin floors at the newest Strava activity.
+            self.assertEqual(
+                sync_scope.resolve_after_ts("garmin", config, data_dir), 1751385600
+            )
+            # A source never floors against its own state.
+            self.assertEqual(sync_scope.resolve_after_ts("strava", config, data_dir), 0)
+
+    def test_cross_source_floor_disabled_without_merge(self) -> None:
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as data_dir:
+            self._write_state(data_dir, "backfill_state_strava.json", 1751385600)
+            self.assertEqual(
+                sync_scope.resolve_after_ts("garmin", {"sync": {"merge_sources": False}}, data_dir),
+                0,
+            )
+
+    def test_cross_source_floor_from_normalized_when_state_file_absent(self) -> None:
+        import json
+        import tempfile
+
+        # Mirrors CI/dashboard-data: normalized store present, no backfill state.
+        activities = [
+            {"id": "1", "source": "strava", "start_date_local": "2026-07-01T06:45:19Z"},
+            {"id": "2", "start_date_local": "2026-06-01T00:00:00Z"},  # legacy -> strava
+            {"id": "3", "source": "garmin", "start_date_local": "2026-07-06T10:00:00Z"},
+        ]
+        with tempfile.TemporaryDirectory() as data_dir:
+            with open(os.path.join(data_dir, "activities_normalized.json"), "w", encoding="utf-8") as f:
+                json.dump(activities, f)
+            config = {"sync": {"merge_sources": True}}
+            expected = int(datetime(2026, 7, 1, 6, 45, 19, tzinfo=timezone.utc).timestamp())
+            self.assertEqual(
+                sync_scope.resolve_after_ts("garmin", config, data_dir), expected
+            )
+
+    def test_explicit_start_date_overrides_cross_source_floor(self) -> None:
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as data_dir:
+            self._write_state(data_dir, "backfill_state_strava.json", 1751385600)
+            config = {"sync": {"merge_sources": True, "start_date": "2020-01-01"}}
+            expected = int(datetime(2020, 1, 1, tzinfo=timezone.utc).timestamp())
+            self.assertEqual(
+                sync_scope.resolve_after_ts("garmin", config, data_dir), expected
+            )
+
     def test_activity_scope_from_config(self) -> None:
         scope = sync_scope.activity_scope_from_config(
             {
