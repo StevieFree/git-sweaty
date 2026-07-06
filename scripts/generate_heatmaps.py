@@ -137,6 +137,17 @@ def _load_activities(
     if not os.path.exists(ACTIVITIES_PATH):
         return []
     items = read_json(ACTIVITIES_PATH) or []
+    # `source` is the currently-configured provider; the generic
+    # `include_activity_urls` opt-in applies to it. Untagged legacy records
+    # predate source tagging and are Strava history.
+    active_source = str(source or "").strip().lower() or "strava"
+    legacy_source = "strava"
+    # Per-source link opt-in, so a merged Strava+Garmin history links each
+    # activity to the provider it actually came from.
+    links_enabled_by_source = {
+        "strava": include_strava_activity_urls or (include_activity_urls and active_source == "strava"),
+        "garmin": include_garmin_activity_urls or (include_activity_urls and active_source == "garmin"),
+    }
     activities: List[Dict] = []
     for item in items:
         if not isinstance(item, dict):
@@ -159,14 +170,10 @@ def _load_activities(
             "subtype": str(subtype),
             "hour": hour,
         }
-        include_provider_activity_urls = include_activity_urls
-        if source == "strava" and include_strava_activity_urls:
-            include_provider_activity_urls = True
-        if source == "garmin" and include_garmin_activity_urls:
-            include_provider_activity_urls = True
+        item_source = str(item.get("source") or "").strip().lower() or legacy_source
 
-        if include_provider_activity_urls:
-            url = _activity_url_from_id(source, item.get("id"))
+        if links_enabled_by_source.get(item_source):
+            url = _activity_url_from_id(item_source, item.get("id"))
             if url:
                 activity["url"] = url
                 activity_name = str(item.get("name") or "").strip()
@@ -453,12 +460,13 @@ def generate(write_svgs: bool = True):
                     f.write(svg)
 
     source = normalize_source(config.get("source", "strava"))
-    include_activity_urls = _activity_links_enabled_from_config(config, source)
-    load_activities_kwargs = {"source": source}
-    if source == "strava":
-        load_activities_kwargs["include_strava_activity_urls"] = include_activity_urls
-    elif source == "garmin":
-        load_activities_kwargs["include_garmin_activity_urls"] = include_activity_urls
+    # Pass both providers' opt-ins so a merged history links each activity to
+    # its own source (Strava activities -> Strava, Garmin -> Garmin).
+    load_activities_kwargs = {
+        "source": source,
+        "include_strava_activity_urls": _activity_links_enabled_from_config(config, "strava"),
+        "include_garmin_activity_urls": _activity_links_enabled_from_config(config, "garmin"),
+    }
     site_payload = {
         "source": source,
         "generated_at": utc_now().isoformat(),

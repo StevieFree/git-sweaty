@@ -24,6 +24,11 @@ sync:
   resume_backfill: true
   per_page: 200
   prune_deleted: false
+  # When true, keep previously-synced activities when you change `source`
+  # (e.g. Strava -> Garmin) or switch Garmin account. Each run then APPENDS
+  # newly fetched activities to the existing history instead of wiping it.
+  # Leave false to preserve the default single-source behavior.
+  merge_sources: true
 
 rate_limits:
   overall_15_min: 200

@@ -37,6 +37,13 @@ def load_config() -> Dict[str, Any]:
     return base
 
 
+def merge_sources_enabled(config: Dict[str, Any]) -> bool:
+    """When true, keep previously-synced activities across source switches
+    (e.g. Strava -> Garmin) instead of wiping persisted history."""
+    sync_cfg = config.get("sync", {}) or {}
+    return bool(sync_cfg.get("merge_sources", False))
+
+
 def normalize_source(value: Any) -> str:
     source = str(value or DEFAULT_SOURCE).strip().lower()
     if source not in SUPPORTED_SOURCES:

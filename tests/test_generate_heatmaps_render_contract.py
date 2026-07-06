@@ -176,6 +176,7 @@ class GenerateHeatmapsRenderContractTests(unittest.TestCase):
         rows = [
             {
                 "id": "888999",
+                "source": "garmin",
                 "date": "2026-02-01",
                 "year": 2026,
                 "type": "Run",
@@ -197,6 +198,53 @@ class GenerateHeatmapsRenderContractTests(unittest.TestCase):
 
         self.assertEqual(activities[0]["url"], "https://connect.garmin.com/modern/activity/888999")
         self.assertEqual(activities[0]["name"], "Garmin Run")
+
+    def test_load_activities_links_each_source_in_merged_history(self) -> None:
+        rows = [
+            {
+                "id": "111",
+                "source": "strava",
+                "date": "2026-02-01",
+                "year": 2026,
+                "type": "Run",
+                "raw_type": "Run",
+                "start_date_local": "2026-02-01T09:15:00+00:00",
+            },
+            {
+                "id": "222",
+                "source": "garmin",
+                "date": "2026-02-02",
+                "year": 2026,
+                "type": "Ride",
+                "raw_type": "Ride",
+                "start_date_local": "2026-02-02T09:15:00+00:00",
+            },
+            {
+                # Legacy record with no source -> defaults to Strava.
+                "id": "333",
+                "date": "2026-02-03",
+                "year": 2026,
+                "type": "Run",
+                "raw_type": "Run",
+                "start_date_local": "2026-02-03T09:15:00+00:00",
+            },
+        ]
+        with tempfile.TemporaryDirectory() as tmpdir:
+            activities_path = os.path.join(tmpdir, "activities_normalized.json")
+            with open(activities_path, "w", encoding="utf-8") as handle:
+                json.dump(rows, handle)
+
+            with mock.patch("generate_heatmaps.ACTIVITIES_PATH", activities_path):
+                activities = generate_heatmaps._load_activities(
+                    source="garmin",
+                    include_strava_activity_urls=True,
+                    include_garmin_activity_urls=True,
+                )
+
+        urls = {activity["date"]: activity.get("url") for activity in activities}
+        self.assertEqual(urls["2026-02-01"], "https://www.strava.com/activities/111")
+        self.assertEqual(urls["2026-02-02"], "https://connect.garmin.com/modern/activity/222")
+        self.assertEqual(urls["2026-02-03"], "https://www.strava.com/activities/333")
 
     def test_generate_includes_repo_slug_when_available(self) -> None:
         captured = {}
@@ -303,9 +351,16 @@ class GenerateHeatmapsRenderContractTests(unittest.TestCase):
         captured = {}
         load_args = {}
 
-        def _fake_load_activities(*, source: str, include_strava_activity_urls: bool = False, **kwargs):
+        def _fake_load_activities(
+            *,
+            source: str,
+            include_strava_activity_urls: bool = False,
+            include_garmin_activity_urls: bool = False,
+            **kwargs,
+        ):
             load_args["source"] = source
             load_args["include_strava_activity_urls"] = include_strava_activity_urls
+            load_args["include_garmin_activity_urls"] = include_garmin_activity_urls
             load_args["extra_kwargs"] = kwargs
             return []
 
@@ -331,6 +386,7 @@ class GenerateHeatmapsRenderContractTests(unittest.TestCase):
             {
                 "source": "strava",
                 "include_strava_activity_urls": True,
+                "include_garmin_activity_urls": False,
                 "extra_kwargs": {},
             },
         )
@@ -388,8 +444,15 @@ class GenerateHeatmapsRenderContractTests(unittest.TestCase):
     def test_generate_passes_garmin_activity_link_opt_in_to_load_activities(self) -> None:
         load_args = {}
 
-        def _fake_load_activities(*, source: str, include_garmin_activity_urls: bool = False, **kwargs):
+        def _fake_load_activities(
+            *,
+            source: str,
+            include_strava_activity_urls: bool = False,
+            include_garmin_activity_urls: bool = False,
+            **kwargs,
+        ):
             load_args["source"] = source
+            load_args["include_strava_activity_urls"] = include_strava_activity_urls
             load_args["include_garmin_activity_urls"] = include_garmin_activity_urls
             load_args["extra_kwargs"] = kwargs
             return []
@@ -415,6 +478,7 @@ class GenerateHeatmapsRenderContractTests(unittest.TestCase):
             load_args,
             {
                 "source": "garmin",
+                "include_strava_activity_urls": False,
                 "include_garmin_activity_urls": True,
                 "extra_kwargs": {},
             },

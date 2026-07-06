@@ -16,7 +16,7 @@ from repo_helpers import (
 )
 from sync_garmin import sync_garmin
 from sync_strava import sync_strava
-from utils import ensure_dir, load_config, normalize_source, write_json
+from utils import ensure_dir, load_config, merge_sources_enabled, normalize_source, write_json
 from generate_heatmaps import generate as generate_heatmaps
 
 README_MD = "README.md"
@@ -226,8 +226,15 @@ def run_pipeline(
 ) -> None:
     config = load_config()
     source = normalize_source(config.get("source", "strava"))
+    merge_sources = merge_sources_enabled(config)
     previous_source = _load_last_source()
-    if previous_source and previous_source != source:
+    if merge_sources:
+        if previous_source and previous_source != source:
+            print(
+                f"Source changed from {previous_source} to {source}; "
+                "merge_sources is enabled, so keeping existing history and appending new activities."
+            )
+    elif previous_source and previous_source != source:
         print(
             f"Source changed from {previous_source} to {source}; "
             "resetting persisted outputs, backfill state, and raw caches for a full fresh sync."

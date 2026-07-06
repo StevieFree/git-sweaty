@@ -19,7 +19,7 @@ from sync_scope import (
     activity_start_ts as _shared_activity_start_ts,
     start_after_ts as _shared_start_after_ts,
 )
-from utils import ensure_dir, load_config, raw_activity_dir, read_json, utc_now, write_json
+from utils import ensure_dir, load_config, merge_sources_enabled, raw_activity_dir, read_json, utc_now, write_json
 
 RAW_DIR = raw_activity_dir("garmin")
 SUMMARY_JSON = os.path.join("data", "last_sync_summary.json")
@@ -304,6 +304,15 @@ def _maybe_reset_for_new_account(config: Dict[str, Any]) -> None:
         return
     stored = _load_account_fingerprint()
     if stored == fingerprint:
+        return
+    if merge_sources_enabled(config):
+        # Keep prior history (e.g. Strava data or a previous Garmin account) and
+        # append this account's activities instead of wiping persisted outputs.
+        if stored and stored != fingerprint:
+            print("Detected different Garmin account; merge_sources is enabled, so appending instead of resetting.")
+        elif not stored and _has_existing_data():
+            print("Existing history found without a Garmin fingerprint; merge_sources is enabled, so appending instead of resetting.")
+        _write_account_fingerprint(fingerprint)
         return
     if stored and stored != fingerprint:
         print("Detected different Garmin account; resetting persisted data.")

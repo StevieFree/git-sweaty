@@ -12,6 +12,10 @@ from utils import ensure_dir, load_config, normalize_source, parse_iso_datetime,
 
 OUT_PATH = os.path.join("data", "activities_normalized.json")
 
+# Activities persisted before per-activity source tagging existed are Strava
+# history, so fall back to Strava when a record has no explicit source.
+LEGACY_SOURCE = "strava"
+
 
 def _coalesce(*values: Any) -> Any:
     return _shared_coalesce(*values)
@@ -86,6 +90,7 @@ def _normalize_activity(activity: Dict, type_aliases: Dict[str, str], source: st
 
     normalized = {
         "id": str(activity_id),
+        "source": source,
         "start_date_local": str(start_date_local).replace(" ", "T"),
         "date": date_str,
         "year": year,
@@ -175,6 +180,8 @@ def normalize() -> List[Dict]:
         if item.get("id") is not None and item.get("date")
     ]
     for item in items:
+        item_source = str(item.get("source") or "").strip().lower()
+        item["source"] = item_source if item_source in {"strava", "garmin"} else LEGACY_SOURCE
         raw_activity_type = str(item.get("raw_activity_type") or item.get("raw_type") or item.get("type") or other_bucket)
         raw_type = str(item.get("raw_type") or raw_activity_type or other_bucket)
         item["raw_activity_type"] = raw_activity_type
