@@ -36385,5 +36385,18 @@
     "start_date_local": "2026-07-04T09:50:39Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-07-05",
+    "distance": 60286.0,
+    "elevation_gain": 479.0,
+    "id": "19193715409",
+    "moving_time": 7222.0,
+    "name": "Indoor Z2 \u2014 120 min steady",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-07-05T11:17:52Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
