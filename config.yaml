@@ -6,14 +6,14 @@ strava:
   client_secret: ""
   refresh_token: ""
   profile_url: "" # optional dashboard header profile link
-  include_activity_urls: false # when true, tooltip details can show links to individual Strava activities
+  include_activity_urls: true # when true, tooltip details can show links to individual Strava activities
 
 garmin:
   token_store_b64: ""
   email: ""
   password: ""
   profile_url: "" # optional dashboard header profile link
-  include_activity_urls: false # when true, tooltip details can show links to individual Garmin activities
+  include_activity_urls: true # when true, tooltip details can show links to individual Garmin activities
   strict_token_only: false # when true, only token_store_b64 is used (no email/password fallback)
 
 sync:

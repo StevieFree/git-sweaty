@@ -946,8 +946,9 @@ function syncFilterControlState({
 }
 
 function setDashboardTitle(source) {
-  const provider = providerDisplayName(source);
-  const title = provider ? `${provider} Activity Heatmaps` : "Activity Heatmaps";
+  // const provider = providerDisplayName(source);
+  // const title = provider ? `${provider} Activity Heatmaps` : "Activity Heatmaps";
+  const title = "Activity Heatmaps";
   if (dashboardTitle) {
     dashboardTitle.textContent = title;
   }
