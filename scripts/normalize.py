@@ -181,12 +181,18 @@ def normalize() -> List[Dict]:
     ]
     for item in items:
         item_source = str(item.get("source") or "").strip().lower()
-        item["source"] = item_source if item_source in {"strava", "garmin"} else LEGACY_SOURCE
+        item_source = item_source if item_source in {"strava", "garmin"} else LEGACY_SOURCE
+        item["source"] = item_source
         raw_activity_type = str(item.get("raw_activity_type") or item.get("raw_type") or item.get("type") or other_bucket)
         raw_type = str(item.get("raw_type") or raw_activity_type or other_bucket)
+        # Canonicalize the raw source types to Strava-style names so Garmin keys
+        # (e.g. "cycling", "lap_swimming") match Strava naming ("Ride", "Swim")
+        # across the merged history. Uses each activity's own source.
+        raw_activity_type = _resolve_canonical_type(raw_activity_type, item_source)
+        raw_type = _resolve_canonical_type(raw_type, item_source)
         item["raw_activity_type"] = raw_activity_type
         item["raw_type"] = raw_type
-        canonical_raw_type = _resolve_canonical_type(raw_type, source)
+        canonical_raw_type = _resolve_canonical_type(raw_type, item_source)
         source_type = type_aliases.get(raw_type, type_aliases.get(canonical_raw_type, canonical_raw_type))
         item["type"] = normalize_activity_type(
             source_type,

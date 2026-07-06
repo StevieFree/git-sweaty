@@ -54,6 +54,65 @@ class NormalizeAndAggregateTests(unittest.TestCase):
         self.assertEqual(normalize._normalize_activity({"id": "x"}, {}, "strava"), {})
         self.assertEqual(normalize._normalize_activity({"start_date_local": "2026-01-01T00:00:00Z"}, {}, "strava"), {})
 
+    def test_normalize_canonicalizes_garmin_raw_types_per_source(self) -> None:
+        persisted = {
+            # New Garmin record with native type keys.
+            "111": {
+                "id": "111",
+                "source": "garmin",
+                "date": "2026-02-01",
+                "year": 2026,
+                "start_date_local": "2026-02-01T09:00:00+00:00",
+                "raw_activity_type": "cycling",
+                "raw_type": "cycling",
+                "type": "cycling",
+                "distance": 1000.0,
+                "moving_time": 100.0,
+                "elevation_gain": 0.0,
+            },
+            # Legacy untagged Strava record already using Strava naming.
+            "222": {
+                "id": "222",
+                "date": "2026-02-02",
+                "year": 2026,
+                "start_date_local": "2026-02-02T09:00:00+00:00",
+                "raw_activity_type": "Ride",
+                "raw_type": "Ride",
+                "type": "Ride",
+                "distance": 2000.0,
+                "moving_time": 200.0,
+                "elevation_gain": 0.0,
+            },
+        }
+        config = {
+            "source": "garmin",
+            "activities": {
+                "include_all_types": True,
+                "group_other_types": False,
+                "type_aliases": {},
+                "exclude_types": [],
+            },
+        }
+        with (
+            mock.patch("normalize.load_config", return_value=config),
+            mock.patch("normalize._load_existing", return_value=persisted),
+            mock.patch("normalize.os.path.exists", return_value=False),
+        ):
+            items = normalize.normalize()
+
+        by_id = {item["id"]: item for item in items}
+        garmin = by_id["111"]
+        self.assertEqual(garmin["source"], "garmin")
+        self.assertEqual(garmin["raw_activity_type"], "Ride")
+        self.assertEqual(garmin["raw_type"], "Ride")
+        self.assertEqual(garmin["type"], "Ride")
+
+        # Legacy untagged record defaults to Strava and stays canonical.
+        legacy = by_id["222"]
+        self.assertEqual(legacy["source"], "strava")
+        self.assertEqual(legacy["raw_type"], "Ride")
+        self.assertEqual(legacy["type"], "Ride")
+
     def test_aggregate_groups_by_day_and_filters_types(self) -> None:
         config = {
             "activities": {
