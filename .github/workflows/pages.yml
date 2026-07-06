@@ -3,7 +3,7 @@ name: Deploy Pages
 on:
   push:
     branches:
-      - main
+      - append-garmin
     paths:
       - site/**
       - .github/workflows/pages.yml
@@ -35,7 +35,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: append-garmin
           fetch-depth: 0
 
       - name: Restore site data
