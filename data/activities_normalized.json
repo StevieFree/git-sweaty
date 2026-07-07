@@ -36398,5 +36398,18 @@
     "start_date_local": "2026-07-05T11:17:52Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-07-06",
+    "distance": 64493.1,
+    "elevation_gain": 660.0,
+    "id": "19208889779",
+    "moving_time": 7921.0,
+    "name": "Wind and Conversation",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-06T17:50:10Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
