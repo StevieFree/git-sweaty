@@ -25208,6 +25208,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19208889779",
       "year": 2026
+    },
+    {
+      "date": "2026-07-07",
+      "hour": 18,
+      "name": "More Bank For Your Bucks",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19223306497",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47432,6 +47441,15 @@
           "distance": 64493.1,
           "elevation_gain": 660.0,
           "moving_time": 7921.0
+        },
+        "2026-07-07": {
+          "activity_ids": [
+            "19223306497"
+          ],
+          "count": 1,
+          "distance": 70694.5,
+          "elevation_gain": 733.0,
+          "moving_time": 8673.0
         }
       },
       "Run": {
@@ -48777,7 +48795,7 @@
       }
     }
   },
-  "generated_at": "2026-07-07T17:12:55.026407+00:00",
+  "generated_at": "2026-07-08T16:28:37.315640+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

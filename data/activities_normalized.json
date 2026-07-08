@@ -36411,5 +36411,18 @@
     "start_date_local": "2026-07-06T17:50:10Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-07",
+    "distance": 70694.5,
+    "elevation_gain": 733.0,
+    "id": "19223306497",
+    "moving_time": 8673.0,
+    "name": "More Bank For Your Bucks",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-07T18:24:22Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
