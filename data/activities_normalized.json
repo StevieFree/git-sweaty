@@ -36424,5 +36424,18 @@
     "start_date_local": "2026-07-07T18:24:22Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-09",
+    "distance": 62051.1,
+    "elevation_gain": 635.0,
+    "id": "19243178946",
+    "moving_time": 7668.0,
+    "name": "Sushi Night",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-09T05:41:24Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
