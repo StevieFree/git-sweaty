@@ -25226,6 +25226,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19243178946",
       "year": 2026
+    },
+    {
+      "date": "2026-07-11",
+      "hour": 11,
+      "name": "Moving the Body",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/19272876843",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47596,6 +47605,15 @@
           "distance": 8238.0,
           "elevation_gain": 0.0,
           "moving_time": 2676.0
+        },
+        "2026-07-11": {
+          "activity_ids": [
+            "19272876843"
+          ],
+          "count": 1,
+          "distance": 8411.7,
+          "elevation_gain": 31.0,
+          "moving_time": 2433.0
         }
       },
       "Soccer": {
@@ -48813,7 +48831,7 @@
       }
     }
   },
-  "generated_at": "2026-07-11T15:54:35.250450+00:00",
+  "generated_at": "2026-07-12T15:58:19.900323+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
