@@ -25235,6 +25235,15 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/19272876843",
       "year": 2026
+    },
+    {
+      "date": "2026-07-13",
+      "hour": 7,
+      "name": "Running with Kids",
+      "subtype": "Run",
+      "type": "Run",
+      "url": "https://www.strava.com/activities/19295227403",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47614,6 +47623,15 @@
           "distance": 8411.7,
           "elevation_gain": 31.0,
           "moving_time": 2433.0
+        },
+        "2026-07-13": {
+          "activity_ids": [
+            "19295227403"
+          ],
+          "count": 1,
+          "distance": 6608.1,
+          "elevation_gain": 46.0,
+          "moving_time": 1924.0
         }
       },
       "Soccer": {
@@ -48831,7 +48849,7 @@
       }
     }
   },
-  "generated_at": "2026-07-12T15:58:19.900323+00:00",
+  "generated_at": "2026-07-13T17:11:49.762571+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

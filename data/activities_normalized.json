@@ -36450,5 +36450,18 @@
     "start_date_local": "2026-07-11T11:49:09Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-07-13",
+    "distance": 6608.1,
+    "elevation_gain": 46.0,
+    "id": "19295227403",
+    "moving_time": 1924.0,
+    "name": "Running with Kids",
+    "raw_activity_type": "Run",
+    "raw_type": "Run",
+    "start_date_local": "2026-07-13T07:26:40Z",
+    "type": "Run",
+    "year": 2026
   }
 ]
