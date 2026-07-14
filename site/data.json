@@ -25244,6 +25244,24 @@
       "type": "Run",
       "url": "https://www.strava.com/activities/19295227403",
       "year": 2026
+    },
+    {
+      "date": "2026-07-13",
+      "hour": 16,
+      "name": "What a Ride. What a Night.",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19302968104",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-14",
+      "hour": 6,
+      "name": "Morning Weight Training",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "url": "https://www.strava.com/activities/19309086189",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47486,6 +47504,15 @@
           "distance": 62051.1,
           "elevation_gain": 635.0,
           "moving_time": 7668.0
+        },
+        "2026-07-13": {
+          "activity_ids": [
+            "19302968104"
+          ],
+          "count": 1,
+          "distance": 85271.2,
+          "elevation_gain": 713.0,
+          "moving_time": 10410.0
         }
       },
       "Run": {
@@ -48834,6 +48861,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 951.0
+        },
+        "2026-07-14": {
+          "activity_ids": [
+            "19309086189"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1139.0
         }
       },
       "Workout": {
@@ -48849,7 +48885,7 @@
       }
     }
   },
-  "generated_at": "2026-07-13T17:11:49.762571+00:00",
+  "generated_at": "2026-07-14T16:13:09.595892+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
