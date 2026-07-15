@@ -36489,5 +36489,31 @@
     "start_date_local": "2026-07-14T06:48:58Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-07-14",
+    "distance": 38254.8,
+    "elevation_gain": 271.0,
+    "id": "19317643733",
+    "moving_time": 4210.0,
+    "name": "Sweet-Spot 2.2 x18",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-07-14T19:26:03Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-15",
+    "distance": 61617.5,
+    "elevation_gain": 575.0,
+    "id": "19323713570",
+    "moving_time": 7072.0,
+    "name": "What\u2019s the Rush",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-15T05:51:48Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
