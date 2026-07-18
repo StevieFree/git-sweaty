@@ -36528,5 +36528,18 @@
     "start_date_local": "2026-07-16T05:47:24Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-07-17",
+    "distance": 48458.6,
+    "elevation_gain": 310.0,
+    "id": "19352983087",
+    "moving_time": 5377.0,
+    "name": "Sweet Spot 3x18 \u2014 Complete",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-07-17T10:39:42Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
