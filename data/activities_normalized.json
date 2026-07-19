@@ -36541,5 +36541,18 @@
     "start_date_local": "2026-07-17T10:39:42Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-07-18",
+    "distance": 116562.0,
+    "elevation_gain": 864.0,
+    "id": "19365304173",
+    "moving_time": 13375.0,
+    "name": "Triple Espresso",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-18T05:39:48Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
