@@ -36554,5 +36554,18 @@
     "start_date_local": "2026-07-18T05:39:48Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-20",
+    "distance": 66652.7,
+    "elevation_gain": 608.0,
+    "id": "19396059653",
+    "moving_time": 8026.0,
+    "name": "Random Things",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-20T15:40:54Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
