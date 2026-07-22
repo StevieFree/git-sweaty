@@ -36567,5 +36567,18 @@
     "start_date_local": "2026-07-20T15:40:54Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-21",
+    "distance": 45965.1,
+    "elevation_gain": 254.0,
+    "id": "19411631480",
+    "moving_time": 4828.0,
+    "name": "Threshold 4x10",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-07-21T18:21:10Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
