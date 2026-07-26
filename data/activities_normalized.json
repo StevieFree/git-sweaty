@@ -36593,5 +36593,18 @@
     "start_date_local": "2026-07-23T05:23:30Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-25",
+    "distance": 83440.4,
+    "elevation_gain": 778.0,
+    "id": "19464284802",
+    "moving_time": 10458.0,
+    "name": "Up, Down, and All Around",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-25T11:43:59Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
