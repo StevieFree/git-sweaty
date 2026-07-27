@@ -36606,5 +36606,57 @@
     "start_date_local": "2026-07-25T11:43:59Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-26",
+    "distance": 64218.8,
+    "elevation_gain": 535.0,
+    "id": "19478304704",
+    "moving_time": 7396.0,
+    "name": "What We Train For",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-26T12:46:26Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-26",
+    "distance": 5113.1,
+    "elevation_gain": 35.0,
+    "id": "19479120520",
+    "moving_time": 629.0,
+    "name": "Afternoon Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-26T16:55:58Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-27",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "19484047928",
+    "moving_time": 605.0,
+    "name": "Morning Stair-Stepper",
+    "raw_activity_type": "StairStepper",
+    "raw_type": "StairStepper",
+    "start_date_local": "2026-07-27T05:24:06Z",
+    "type": "StairStepper",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-27",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "19484762574",
+    "moving_time": 3367.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-07-27T05:36:13Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]

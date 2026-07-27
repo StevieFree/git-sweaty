@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T15:59:48.174382+00:00",
+  "generated_at": "2026-07-27T16:55:53.071777+00:00",
   "years": {
     "2013": {
       "Ride": {
@@ -22294,6 +22294,16 @@
           "distance": 83440.4,
           "elevation_gain": 778.0,
           "moving_time": 10458.0
+        },
+        "2026-07-26": {
+          "activity_ids": [
+            "19478304704",
+            "19479120520"
+          ],
+          "count": 2,
+          "distance": 69331.90000000001,
+          "elevation_gain": 570.0,
+          "moving_time": 8025.0
         }
       },
       "Run": {
@@ -22451,6 +22461,17 @@
           "distance": 1002.9,
           "elevation_gain": 0.0,
           "moving_time": 3364.0
+        }
+      },
+      "StairStepper": {
+        "2026-07-27": {
+          "activity_ids": [
+            "19484047928"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 605.0
         }
       },
       "VirtualRide": {
@@ -23687,6 +23708,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 3684.0
+        },
+        "2026-07-27": {
+          "activity_ids": [
+            "19484762574"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 3367.0
         }
       },
       "Workout": {
