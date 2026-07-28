@@ -36658,5 +36658,44 @@
     "start_date_local": "2026-07-27T05:36:13Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-07-28",
+    "distance": 11337.1,
+    "elevation_gain": 48.0,
+    "id": "19498777648",
+    "moving_time": 1222.0,
+    "name": "Pre FTP",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-07-28T05:30:25Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-28",
+    "distance": 10535.7,
+    "elevation_gain": 26.0,
+    "id": "19499069524",
+    "moving_time": 1120.0,
+    "name": "FTP",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-07-28T05:51:39Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-07-28",
+    "distance": 20546.9,
+    "elevation_gain": 33.0,
+    "id": "19499558730",
+    "moving_time": 2092.0,
+    "name": "Post FTP",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-07-28T06:10:51Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

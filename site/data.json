@@ -25379,6 +25379,33 @@
       "type": "WeightTraining",
       "url": "https://www.strava.com/activities/19484762574",
       "year": 2026
+    },
+    {
+      "date": "2026-07-28",
+      "hour": 5,
+      "name": "Pre FTP",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19498777648",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-28",
+      "hour": 5,
+      "name": "FTP",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19499069524",
+      "year": 2026
+    },
+    {
+      "date": "2026-07-28",
+      "hour": 6,
+      "name": "Post FTP",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19499558730",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48662,6 +48689,17 @@
           "distance": 45965.1,
           "elevation_gain": 254.0,
           "moving_time": 4828.0
+        },
+        "2026-07-28": {
+          "activity_ids": [
+            "19498777648",
+            "19499069524",
+            "19499558730"
+          ],
+          "count": 3,
+          "distance": 42419.700000000004,
+          "elevation_gain": 107.0,
+          "moving_time": 4434.0
         }
       },
       "VirtualRun": {
@@ -49113,7 +49151,7 @@
       }
     }
   },
-  "generated_at": "2026-07-27T16:55:53.107678+00:00",
+  "generated_at": "2026-07-28T16:39:14.862235+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
