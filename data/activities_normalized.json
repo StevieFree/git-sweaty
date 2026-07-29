@@ -36697,5 +36697,18 @@
     "start_date_local": "2026-07-28T06:10:51Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-07-29",
+    "distance": 62547.1,
+    "elevation_gain": 563.0,
+    "id": "19515052241",
+    "moving_time": 7632.0,
+    "name": "Nice Nature Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-29T05:15:42Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
