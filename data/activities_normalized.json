@@ -36710,5 +36710,18 @@
     "start_date_local": "2026-07-29T05:15:42Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-30",
+    "distance": 61057.2,
+    "elevation_gain": 606.0,
+    "id": "19536104811",
+    "moving_time": 7205.0,
+    "name": "So Much Fun. So Much Sun",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-30T16:05:15Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]

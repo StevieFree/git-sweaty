@@ -25415,6 +25415,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19515052241",
       "year": 2026
+    },
+    {
+      "date": "2026-07-30",
+      "hour": 16,
+      "name": "So Much Fun. So Much Sun",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19536104811",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47730,6 +47739,15 @@
           "distance": 62547.1,
           "elevation_gain": 563.0,
           "moving_time": 7632.0
+        },
+        "2026-07-30": {
+          "activity_ids": [
+            "19536104811"
+          ],
+          "count": 1,
+          "distance": 61057.2,
+          "elevation_gain": 606.0,
+          "moving_time": 7205.0
         }
       },
       "Run": {
@@ -49169,7 +49187,7 @@
       }
     }
   },
-  "generated_at": "2026-07-30T16:25:06.732626+00:00",
+  "generated_at": "2026-07-31T16:43:59.031410+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
