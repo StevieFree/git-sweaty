@@ -36723,5 +36723,18 @@
     "start_date_local": "2026-07-30T16:05:15Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-07-31",
+    "distance": 84097.3,
+    "elevation_gain": 827.0,
+    "id": "19548342416",
+    "moving_time": 10151.0,
+    "name": "Reverse Cochrane",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-07-31T14:03:20Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
