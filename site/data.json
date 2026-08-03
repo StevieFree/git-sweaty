@@ -25433,6 +25433,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19548342416",
       "year": 2026
+    },
+    {
+      "date": "2026-08-02",
+      "hour": 7,
+      "name": "All the Tires & Wind",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19572855613",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47766,6 +47775,15 @@
           "distance": 84097.3,
           "elevation_gain": 827.0,
           "moving_time": 10151.0
+        },
+        "2026-08-02": {
+          "activity_ids": [
+            "19572855613"
+          ],
+          "count": 1,
+          "distance": 90373.8,
+          "elevation_gain": 756.0,
+          "moving_time": 10491.0
         }
       },
       "Run": {
@@ -49205,7 +49223,7 @@
       }
     }
   },
-  "generated_at": "2026-08-02T15:58:58.034556+00:00",
+  "generated_at": "2026-08-03T17:07:53.480883+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

@@ -36736,5 +36736,18 @@
     "start_date_local": "2026-07-31T14:03:20Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-02",
+    "distance": 90373.8,
+    "elevation_gain": 756.0,
+    "id": "19572855613",
+    "moving_time": 10491.0,
+    "name": "All the Tires & Wind",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-02T07:03:29Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
