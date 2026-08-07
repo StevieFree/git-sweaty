@@ -36749,5 +36749,31 @@
     "start_date_local": "2026-08-02T07:03:29Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-05",
+    "distance": 34394.9,
+    "elevation_gain": 361.0,
+    "id": "19620828806",
+    "moving_time": 3978.0,
+    "name": "VO2max 5x4 @ 110-114%",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-08-05T18:34:58Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-06",
+    "distance": 60388.0,
+    "elevation_gain": 581.0,
+    "id": "19627723444",
+    "moving_time": 7598.0,
+    "name": "Thank God for Friends",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-06T05:54:42Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
