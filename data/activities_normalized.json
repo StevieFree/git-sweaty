@@ -36775,5 +36775,18 @@
     "start_date_local": "2026-08-06T05:54:42Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-07",
+    "distance": 159546.0,
+    "elevation_gain": 1643.0,
+    "id": "19645670046",
+    "moving_time": 18315.0,
+    "name": "Sheep\u2019s of Nepal",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-07T08:53:55Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
