@@ -25469,6 +25469,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19645670046",
       "year": 2026
+    },
+    {
+      "date": "2026-08-08",
+      "hour": 12,
+      "name": "Recovery Spin 75min",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19659615435",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47829,6 +47838,15 @@
           "distance": 159546.0,
           "elevation_gain": 1643.0,
           "moving_time": 18315.0
+        },
+        "2026-08-08": {
+          "activity_ids": [
+            "19659615435"
+          ],
+          "count": 1,
+          "distance": 41069.4,
+          "elevation_gain": 92.0,
+          "moving_time": 4951.0
         }
       },
       "Run": {
@@ -49277,7 +49295,7 @@
       }
     }
   },
-  "generated_at": "2026-08-08T15:26:49.819169+00:00",
+  "generated_at": "2026-08-09T15:29:23.438267+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

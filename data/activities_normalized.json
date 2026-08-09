@@ -36788,5 +36788,18 @@
     "start_date_local": "2026-08-07T08:53:55Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-08",
+    "distance": 41069.4,
+    "elevation_gain": 92.0,
+    "id": "19659615435",
+    "moving_time": 4951.0,
+    "name": "Recovery Spin 75min",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-08T12:52:03Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
