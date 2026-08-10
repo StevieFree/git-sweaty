@@ -25478,6 +25478,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19659615435",
       "year": 2026
+    },
+    {
+      "date": "2026-08-09",
+      "hour": 10,
+      "name": "Started as one thing. Ended as a another.",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19673214309",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47847,6 +47856,15 @@
           "distance": 41069.4,
           "elevation_gain": 92.0,
           "moving_time": 4951.0
+        },
+        "2026-08-09": {
+          "activity_ids": [
+            "19673214309"
+          ],
+          "count": 1,
+          "distance": 86844.0,
+          "elevation_gain": 874.0,
+          "moving_time": 10312.0
         }
       },
       "Run": {
@@ -49295,7 +49313,7 @@
       }
     }
   },
-  "generated_at": "2026-08-09T15:29:23.438267+00:00",
+  "generated_at": "2026-08-10T15:58:30.426192+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
