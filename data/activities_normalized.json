@@ -36814,5 +36814,18 @@
     "start_date_local": "2026-08-09T10:21:49Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-11",
+    "distance": 51519.9,
+    "elevation_gain": 369.0,
+    "id": "19704478186",
+    "moving_time": 6324.0,
+    "name": "deload - Z2 Flat 1h45",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-08-11T17:29:39Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

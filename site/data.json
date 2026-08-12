@@ -25487,6 +25487,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19673214309",
       "year": 2026
+    },
+    {
+      "date": "2026-08-11",
+      "hour": 17,
+      "name": "deload - Z2 Flat 1h45",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19704478186",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48862,6 +48871,15 @@
           "distance": 34394.9,
           "elevation_gain": 361.0,
           "moving_time": 3978.0
+        },
+        "2026-08-11": {
+          "activity_ids": [
+            "19704478186"
+          ],
+          "count": 1,
+          "distance": 51519.9,
+          "elevation_gain": 369.0,
+          "moving_time": 6324.0
         }
       },
       "VirtualRun": {
@@ -49313,7 +49331,7 @@
       }
     }
   },
-  "generated_at": "2026-08-11T15:59:16.028583+00:00",
+  "generated_at": "2026-08-12T15:57:34.498046+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
