@@ -36827,5 +36827,18 @@
     "start_date_local": "2026-08-11T17:29:39Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-08-12",
+    "distance": 40965.3,
+    "elevation_gain": 130.0,
+    "id": "19718642090",
+    "moving_time": 4219.0,
+    "name": "deload: Over-Unders 3x12",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-08-12T17:32:06Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

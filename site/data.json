@@ -25496,6 +25496,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/19704478186",
       "year": 2026
+    },
+    {
+      "date": "2026-08-12",
+      "hour": 17,
+      "name": "deload: Over-Unders 3x12",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19718642090",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48880,6 +48889,15 @@
           "distance": 51519.9,
           "elevation_gain": 369.0,
           "moving_time": 6324.0
+        },
+        "2026-08-12": {
+          "activity_ids": [
+            "19718642090"
+          ],
+          "count": 1,
+          "distance": 40965.3,
+          "elevation_gain": 130.0,
+          "moving_time": 4219.0
         }
       },
       "VirtualRun": {
@@ -49331,7 +49349,7 @@
       }
     }
   },
-  "generated_at": "2026-08-12T15:57:34.498046+00:00",
+  "generated_at": "2026-08-13T15:57:26.289499+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
