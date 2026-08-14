@@ -25505,6 +25505,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/19718642090",
       "year": 2026
+    },
+    {
+      "date": "2026-08-13",
+      "hour": 17,
+      "name": "deload - Recovery Spin 1h",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19732266976",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48898,6 +48907,15 @@
           "distance": 40965.3,
           "elevation_gain": 130.0,
           "moving_time": 4219.0
+        },
+        "2026-08-13": {
+          "activity_ids": [
+            "19732266976"
+          ],
+          "count": 1,
+          "distance": 33249.6,
+          "elevation_gain": 53.0,
+          "moving_time": 3659.0
         }
       },
       "VirtualRun": {
@@ -49349,7 +49367,7 @@
       }
     }
   },
-  "generated_at": "2026-08-13T15:57:26.289499+00:00",
+  "generated_at": "2026-08-14T15:49:20.416112+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

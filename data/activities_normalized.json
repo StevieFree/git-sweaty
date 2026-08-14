@@ -36840,5 +36840,18 @@
     "start_date_local": "2026-08-12T17:32:06Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-08-13",
+    "distance": 33249.6,
+    "elevation_gain": 53.0,
+    "id": "19732266976",
+    "moving_time": 3659.0,
+    "name": "deload - Recovery Spin 1h",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-08-13T17:03:43Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
