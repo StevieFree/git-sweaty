@@ -36866,5 +36866,31 @@
     "start_date_local": "2026-08-15T15:32:41Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-16",
+    "distance": 85087.9,
+    "elevation_gain": 664.0,
+    "id": "19772221544",
+    "moving_time": 10252.0,
+    "name": "deload: quadrant tour",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-16T12:05:45Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-17",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "19778918793",
+    "moving_time": 604.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-08-17T06:32:13Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
