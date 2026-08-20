@@ -25541,6 +25541,15 @@
       "type": "WeightTraining",
       "url": "https://www.strava.com/activities/19778918793",
       "year": 2026
+    },
+    {
+      "date": "2026-08-19",
+      "hour": 16,
+      "name": "Some Effort",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19816805032",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -47937,6 +47946,15 @@
           "distance": 85087.9,
           "elevation_gain": 664.0,
           "moving_time": 10252.0
+        },
+        "2026-08-19": {
+          "activity_ids": [
+            "19816805032"
+          ],
+          "count": 1,
+          "distance": 71569.6,
+          "elevation_gain": 745.0,
+          "moving_time": 7989.0
         }
       },
       "Run": {
@@ -49421,7 +49439,7 @@
       }
     }
   },
-  "generated_at": "2026-08-19T15:28:19.924457+00:00",
+  "generated_at": "2026-08-20T15:31:13.249702+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
