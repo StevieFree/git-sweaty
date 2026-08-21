@@ -36905,5 +36905,31 @@
     "start_date_local": "2026-08-19T16:15:58Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-20",
+    "distance": 65627.6,
+    "elevation_gain": 628.0,
+    "id": "19831028222",
+    "moving_time": 7564.0,
+    "name": "Two Twenty",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-20T16:49:28Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-21",
+    "distance": 51341.8,
+    "elevation_gain": 444.0,
+    "id": "19837460780",
+    "moving_time": 6593.0,
+    "name": "Perfect Morning Adventure",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-21T05:57:14Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
