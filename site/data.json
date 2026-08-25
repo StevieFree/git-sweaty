@@ -25595,6 +25595,24 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19866857438",
       "year": 2026
+    },
+    {
+      "date": "2026-08-24",
+      "hour": 16,
+      "name": "Tuscola",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19885299534",
+      "year": 2026
+    },
+    {
+      "date": "2026-08-25",
+      "hour": 5,
+      "name": "Mills +3",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19893047323",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49061,6 +49079,24 @@
           "distance": 63306.700000000004,
           "elevation_gain": 442.0,
           "moving_time": 7322.0
+        },
+        "2026-08-24": {
+          "activity_ids": [
+            "19885299534"
+          ],
+          "count": 1,
+          "distance": 41556.9,
+          "elevation_gain": 166.0,
+          "moving_time": 4583.0
+        },
+        "2026-08-25": {
+          "activity_ids": [
+            "19893047323"
+          ],
+          "count": 1,
+          "distance": 49019.1,
+          "elevation_gain": 303.0,
+          "moving_time": 5423.0
         }
       },
       "VirtualRun": {
@@ -49521,7 +49557,7 @@
       }
     }
   },
-  "generated_at": "2026-08-24T15:36:51.712006+00:00",
+  "generated_at": "2026-08-25T15:39:38.393852+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

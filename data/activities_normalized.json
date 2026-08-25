@@ -36970,5 +36970,31 @@
     "start_date_local": "2026-08-23T06:14:23Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-24",
+    "distance": 41556.9,
+    "elevation_gain": 166.0,
+    "id": "19885299534",
+    "moving_time": 4583.0,
+    "name": "Tuscola",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-08-24T16:14:21Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-25",
+    "distance": 49019.1,
+    "elevation_gain": 303.0,
+    "id": "19893047323",
+    "moving_time": 5423.0,
+    "name": "Mills +3",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-08-25T05:59:32Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
