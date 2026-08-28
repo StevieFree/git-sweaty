@@ -37009,5 +37009,31 @@
     "start_date_local": "2026-08-26T17:49:11Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-08-27",
+    "distance": 31298.4,
+    "elevation_gain": 294.0,
+    "id": "19929865643",
+    "moving_time": 3636.0,
+    "name": "Pioneer -3",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-08-27T17:19:10Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-08-28",
+    "distance": 130490.0,
+    "elevation_gain": 2476.0,
+    "id": "19939808275",
+    "moving_time": 18990.0,
+    "name": "Norquay Spa Day",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-28T07:05:54Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
