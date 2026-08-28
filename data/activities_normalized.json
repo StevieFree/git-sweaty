@@ -36996,5 +36996,18 @@
     "start_date_local": "2026-08-25T05:59:32Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-08-26",
+    "distance": 83661.0,
+    "elevation_gain": 773.0,
+    "id": "19917079558",
+    "moving_time": 9976.0,
+    "name": "Where Is Everyone",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-26T17:49:11Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
