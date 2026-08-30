@@ -25649,6 +25649,15 @@
       "type": "WeightTraining",
       "url": "https://www.strava.com/activities/19948732905",
       "year": 2026
+    },
+    {
+      "date": "2026-08-29",
+      "hour": 12,
+      "name": "H O TT O G O",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/19954319798",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48099,6 +48108,15 @@
           "distance": 130490.0,
           "elevation_gain": 2476.0,
           "moving_time": 18990.0
+        },
+        "2026-08-29": {
+          "activity_ids": [
+            "19954319798"
+          ],
+          "count": 1,
+          "distance": 54437.5,
+          "elevation_gain": 465.0,
+          "moving_time": 6345.0
         }
       },
       "Run": {
@@ -49629,7 +49647,7 @@
       }
     }
   },
-  "generated_at": "2026-08-29T18:10:27.637994+00:00",
+  "generated_at": "2026-08-30T18:24:37.173165+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

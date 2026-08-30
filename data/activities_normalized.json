@@ -37048,5 +37048,18 @@
     "start_date_local": "2026-08-29T06:35:22Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-08-29",
+    "distance": 54437.5,
+    "elevation_gain": 465.0,
+    "id": "19954319798",
+    "moving_time": 6345.0,
+    "name": "H O TT O G O",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-08-29T12:42:38Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
