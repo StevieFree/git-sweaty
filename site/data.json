@@ -25658,6 +25658,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/19954319798",
       "year": 2026
+    },
+    {
+      "date": "2026-09-01",
+      "hour": 5,
+      "name": "Barker",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/19989760178",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49178,6 +49187,15 @@
           "distance": 31298.4,
           "elevation_gain": 294.0,
           "moving_time": 3636.0
+        },
+        "2026-09-01": {
+          "activity_ids": [
+            "19989760178"
+          ],
+          "count": 1,
+          "distance": 51742.4,
+          "elevation_gain": 396.0,
+          "moving_time": 5417.0
         }
       },
       "VirtualRun": {
@@ -49647,7 +49665,7 @@
       }
     }
   },
-  "generated_at": "2026-08-31T20:39:21.310220+00:00",
+  "generated_at": "2026-09-01T18:09:22.450533+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
