@@ -37074,5 +37074,18 @@
     "start_date_local": "2026-09-01T05:19:57Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-02",
+    "distance": 62027.3,
+    "elevation_gain": 251.0,
+    "id": "20005143176",
+    "moving_time": 6319.0,
+    "name": "Maria",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-02T05:16:47Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
