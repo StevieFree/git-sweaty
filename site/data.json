@@ -25676,6 +25676,24 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/20005143176",
       "year": 2026
+    },
+    {
+      "date": "2026-09-03",
+      "hour": 19,
+      "name": "Adams +1",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20028230107",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-04",
+      "hour": 5,
+      "name": "Simon Says, \u201cDo Laps\u201d",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/20033921575",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48135,6 +48153,15 @@
           "distance": 54437.5,
           "elevation_gain": 465.0,
           "moving_time": 6345.0
+        },
+        "2026-09-04": {
+          "activity_ids": [
+            "20033921575"
+          ],
+          "count": 1,
+          "distance": 56545.5,
+          "elevation_gain": 363.0,
+          "moving_time": 7063.0
         }
       },
       "Run": {
@@ -49214,6 +49241,15 @@
           "distance": 62027.3,
           "elevation_gain": 251.0,
           "moving_time": 6319.0
+        },
+        "2026-09-03": {
+          "activity_ids": [
+            "20028230107"
+          ],
+          "count": 1,
+          "distance": 34534.3,
+          "elevation_gain": 80.0,
+          "moving_time": 3613.0
         }
       },
       "VirtualRun": {
@@ -49683,7 +49719,7 @@
       }
     }
   },
-  "generated_at": "2026-09-03T18:20:24.140847+00:00",
+  "generated_at": "2026-09-04T18:05:35.477357+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

@@ -37087,5 +37087,31 @@
     "start_date_local": "2026-09-02T05:16:47Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-03",
+    "distance": 34534.3,
+    "elevation_gain": 80.0,
+    "id": "20028230107",
+    "moving_time": 3613.0,
+    "name": "Adams +1",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-03T19:31:33Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-04",
+    "distance": 56545.5,
+    "elevation_gain": 363.0,
+    "id": "20033921575",
+    "moving_time": 7063.0,
+    "name": "Simon Says, \u201cDo Laps\u201d",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-09-04T05:55:06Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
