@@ -37113,5 +37113,44 @@
     "start_date_local": "2026-09-04T05:55:06Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-09-05",
+    "distance": 30814.7,
+    "elevation_gain": 122.0,
+    "id": "20051574029",
+    "moving_time": 3009.0,
+    "name": "Coco",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-05T12:19:44Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-05",
+    "distance": 21467.0,
+    "elevation_gain": 116.0,
+    "id": "20051845728",
+    "moving_time": 1908.0,
+    "name": "Zwift - Race: Stage 4 - Makuri Madness - Twilight Crit (C)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-05T13:12:36Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-05",
+    "distance": 4848.1,
+    "elevation_gain": 6.0,
+    "id": "20051919626",
+    "moving_time": 615.0,
+    "name": "Zwift - Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-05T13:44:36Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

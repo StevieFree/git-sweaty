@@ -25694,6 +25694,33 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/20033921575",
       "year": 2026
+    },
+    {
+      "date": "2026-09-05",
+      "hour": 12,
+      "name": "Coco",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20051574029",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-05",
+      "hour": 13,
+      "name": "Zwift - Race: Stage 4 - Makuri Madness - Twilight Crit (C)",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20051845728",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-05",
+      "hour": 13,
+      "name": "Zwift - Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20051919626",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49250,6 +49277,17 @@
           "distance": 34534.3,
           "elevation_gain": 80.0,
           "moving_time": 3613.0
+        },
+        "2026-09-05": {
+          "activity_ids": [
+            "20051574029",
+            "20051845728",
+            "20051919626"
+          ],
+          "count": 3,
+          "distance": 57129.799999999996,
+          "elevation_gain": 244.0,
+          "moving_time": 5532.0
         }
       },
       "VirtualRun": {
@@ -49719,7 +49757,7 @@
       }
     }
   },
-  "generated_at": "2026-09-05T17:09:06.525083+00:00",
+  "generated_at": "2026-09-06T17:30:26.536903+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
