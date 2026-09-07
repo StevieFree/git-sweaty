@@ -37152,5 +37152,31 @@
     "start_date_local": "2026-09-05T13:44:36Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-06",
+    "distance": 79668.4,
+    "elevation_gain": 293.0,
+    "id": "20065034626",
+    "moving_time": 7549.0,
+    "name": "Group Ride",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-06T09:38:05Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-07",
+    "distance": 76596.2,
+    "elevation_gain": 284.0,
+    "id": "20078724217",
+    "moving_time": 7725.0,
+    "name": "Shades of Green",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-07T10:48:09Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

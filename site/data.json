@@ -25721,6 +25721,24 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/20051919626",
       "year": 2026
+    },
+    {
+      "date": "2026-09-06",
+      "hour": 9,
+      "name": "Group Ride",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20065034626",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-07",
+      "hour": 10,
+      "name": "Shades of Green",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20078724217",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49288,6 +49306,24 @@
           "distance": 57129.799999999996,
           "elevation_gain": 244.0,
           "moving_time": 5532.0
+        },
+        "2026-09-06": {
+          "activity_ids": [
+            "20065034626"
+          ],
+          "count": 1,
+          "distance": 79668.4,
+          "elevation_gain": 293.0,
+          "moving_time": 7549.0
+        },
+        "2026-09-07": {
+          "activity_ids": [
+            "20078724217"
+          ],
+          "count": 1,
+          "distance": 76596.2,
+          "elevation_gain": 284.0,
+          "moving_time": 7725.0
         }
       },
       "VirtualRun": {
@@ -49757,7 +49793,7 @@
       }
     }
   },
-  "generated_at": "2026-09-06T17:30:26.536903+00:00",
+  "generated_at": "2026-09-07T18:59:19.953629+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
