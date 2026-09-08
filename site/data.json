@@ -25739,6 +25739,24 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/20078724217",
       "year": 2026
+    },
+    {
+      "date": "2026-09-08",
+      "hour": 5,
+      "name": "Pre-Heat",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20087129880",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-08",
+      "hour": 6,
+      "name": "Zwift - Race: Stage 1 - ZRacing - DURA-ACE - Croissant",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20087566977",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49324,6 +49342,16 @@
           "distance": 76596.2,
           "elevation_gain": 284.0,
           "moving_time": 7725.0
+        },
+        "2026-09-08": {
+          "activity_ids": [
+            "20087129880",
+            "20087566977"
+          ],
+          "count": 2,
+          "distance": 44026.399999999994,
+          "elevation_gain": 169.0,
+          "moving_time": 4484.0
         }
       },
       "VirtualRun": {
@@ -49793,7 +49821,7 @@
       }
     }
   },
-  "generated_at": "2026-09-07T18:59:19.953629+00:00",
+  "generated_at": "2026-09-08T18:18:10.556079+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

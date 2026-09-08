@@ -37178,5 +37178,31 @@
     "start_date_local": "2026-09-07T10:48:09Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-08",
+    "distance": 22054.6,
+    "elevation_gain": 48.0,
+    "id": "20087129880",
+    "moving_time": 2565.0,
+    "name": "Pre-Heat",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-08T05:26:06Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-08",
+    "distance": 21971.8,
+    "elevation_gain": 121.0,
+    "id": "20087566977",
+    "moving_time": 1919.0,
+    "name": "Zwift - Race: Stage 1 - ZRacing - DURA-ACE - Croissant",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-08T06:11:16Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
