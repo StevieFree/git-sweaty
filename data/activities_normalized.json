@@ -37204,5 +37204,18 @@
     "start_date_local": "2026-09-08T06:11:16Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-10",
+    "distance": 30310.1,
+    "elevation_gain": 154.0,
+    "id": "20116284483",
+    "moving_time": 3326.0,
+    "name": "As Ready As I'll Ever Be",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-10T05:53:42Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
