@@ -37217,5 +37217,18 @@
     "start_date_local": "2026-09-10T05:53:42Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-12",
+    "distance": 121764.0,
+    "elevation_gain": 1972.0,
+    "id": "20147495896",
+    "moving_time": 14285.0,
+    "name": "RBC Whistler 2026",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-09-12T06:20:27Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
