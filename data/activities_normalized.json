@@ -37230,5 +37230,18 @@
     "start_date_local": "2026-09-12T06:20:27Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-09-16",
+    "distance": 38955.5,
+    "elevation_gain": 71.0,
+    "id": "20208592152",
+    "moving_time": 3941.0,
+    "name": "Back With Maria",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-16T19:45:27Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
