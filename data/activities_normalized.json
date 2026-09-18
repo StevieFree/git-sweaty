@@ -37243,5 +37243,18 @@
     "start_date_local": "2026-09-16T19:45:27Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-17",
+    "distance": 34932.4,
+    "elevation_gain": 168.0,
+    "id": "20222279842",
+    "moving_time": 3639.0,
+    "name": "More With Coco",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-17T20:43:04Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
