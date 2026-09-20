@@ -37269,5 +37269,18 @@
     "start_date_local": "2026-09-18T14:18:51Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-09-19",
+    "distance": 59813.4,
+    "elevation_gain": 565.0,
+    "id": "20246879072",
+    "moving_time": 6888.0,
+    "name": "Grumpy Cyclist",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-09-19T14:58:49Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]

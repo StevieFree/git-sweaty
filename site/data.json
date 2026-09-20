@@ -25802,6 +25802,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/20232791785",
       "year": 2026
+    },
+    {
+      "date": "2026-09-19",
+      "hour": 14,
+      "name": "Grumpy Cyclist",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/20246879072",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48288,6 +48297,15 @@
           "distance": 74424.7,
           "elevation_gain": 667.0,
           "moving_time": 8914.0
+        },
+        "2026-09-19": {
+          "activity_ids": [
+            "20246879072"
+          ],
+          "count": 1,
+          "distance": 59813.4,
+          "elevation_gain": 565.0,
+          "moving_time": 6888.0
         }
       },
       "Run": {
@@ -49911,7 +49929,7 @@
       }
     }
   },
-  "generated_at": "2026-09-19T17:46:12.923118+00:00",
+  "generated_at": "2026-09-20T17:57:22.228186+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
