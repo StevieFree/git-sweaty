@@ -25811,6 +25811,15 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/20246879072",
       "year": 2026
+    },
+    {
+      "date": "2026-09-21",
+      "hour": 16,
+      "name": "Please Don\u2019t Go \ud83d\ude4f",
+      "subtype": "Ride",
+      "type": "Ride",
+      "url": "https://www.strava.com/activities/20275128093",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -48306,6 +48315,15 @@
           "distance": 59813.4,
           "elevation_gain": 565.0,
           "moving_time": 6888.0
+        },
+        "2026-09-21": {
+          "activity_ids": [
+            "20275128093"
+          ],
+          "count": 1,
+          "distance": 63284.0,
+          "elevation_gain": 574.0,
+          "moving_time": 7566.0
         }
       },
       "Run": {
@@ -49929,7 +49947,7 @@
       }
     }
   },
-  "generated_at": "2026-09-21T19:51:49.912810+00:00",
+  "generated_at": "2026-09-22T18:29:53.461199+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

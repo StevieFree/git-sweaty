@@ -37282,5 +37282,18 @@
     "start_date_local": "2026-09-19T14:58:49Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-09-21",
+    "distance": 63284.0,
+    "elevation_gain": 574.0,
+    "id": "20275128093",
+    "moving_time": 7566.0,
+    "name": "Please Don\u2019t Go \ud83d\ude4f",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-09-21T16:26:50Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
