@@ -37295,5 +37295,44 @@
     "start_date_local": "2026-09-21T16:26:50Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-09-22",
+    "distance": 12144.0,
+    "elevation_gain": 31.0,
+    "id": "20290514756",
+    "moving_time": 1400.0,
+    "name": "Zwift - Flat Out Fast in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-22T19:21:38Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-22",
+    "distance": 27611.6,
+    "elevation_gain": 197.0,
+    "id": "20290832419",
+    "moving_time": 2655.0,
+    "name": "Zwift - Race: Zwift Racing League 26/27: Fresh & Fast: Open Lilac League Division 2 - Race 1 (C)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-22T19:50:11Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-09-22",
+    "distance": 14682.3,
+    "elevation_gain": 36.0,
+    "id": "20290992223",
+    "moving_time": 1811.0,
+    "name": "Zwift - Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-22T20:34:46Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

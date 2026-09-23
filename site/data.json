@@ -25820,6 +25820,33 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/20275128093",
       "year": 2026
+    },
+    {
+      "date": "2026-09-22",
+      "hour": 19,
+      "name": "Zwift - Flat Out Fast in Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20290514756",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-22",
+      "hour": 19,
+      "name": "Zwift - Race: Zwift Racing League 26/27: Fresh & Fast: Open Lilac League Division 2 - Race 1 (C)",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20290832419",
+      "year": 2026
+    },
+    {
+      "date": "2026-09-22",
+      "hour": 20,
+      "name": "Zwift - Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20290992223",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49478,6 +49505,17 @@
           "distance": 34932.4,
           "elevation_gain": 168.0,
           "moving_time": 3639.0
+        },
+        "2026-09-22": {
+          "activity_ids": [
+            "20290514756",
+            "20290832419",
+            "20290992223"
+          ],
+          "count": 3,
+          "distance": 54437.899999999994,
+          "elevation_gain": 264.0,
+          "moving_time": 5866.0
         }
       },
       "VirtualRun": {
@@ -49947,7 +49985,7 @@
       }
     }
   },
-  "generated_at": "2026-09-22T18:29:53.461199+00:00",
+  "generated_at": "2026-09-23T18:50:31.577959+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
