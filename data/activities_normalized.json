@@ -37334,5 +37334,18 @@
     "start_date_local": "2026-09-22T20:34:46Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-23",
+    "distance": 50292.1,
+    "elevation_gain": 484.0,
+    "id": "20304344149",
+    "moving_time": 6074.0,
+    "name": "Tyrrell",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-23T16:54:16Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
