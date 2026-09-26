@@ -37347,5 +37347,18 @@
     "start_date_local": "2026-09-23T16:54:16Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-25",
+    "distance": 50089.0,
+    "elevation_gain": 339.0,
+    "id": "20330191363",
+    "moving_time": 5445.0,
+    "name": "Ericsson +2",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-25T16:46:44Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
