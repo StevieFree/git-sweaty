@@ -37360,5 +37360,18 @@
     "start_date_local": "2026-09-25T16:46:44Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-09-26",
+    "distance": 67744.9,
+    "elevation_gain": 246.0,
+    "id": "20344086303",
+    "moving_time": 7123.0,
+    "name": "Virtual Pals",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-26T16:32:57Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
