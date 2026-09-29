@@ -37386,5 +37386,18 @@
     "start_date_local": "2026-09-27T15:10:30Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-09-29",
+    "distance": 50357.9,
+    "elevation_gain": 347.0,
+    "id": "20377721948",
+    "moving_time": 5431.0,
+    "name": "Let the Circus Begin",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-09-29T05:17:03Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
