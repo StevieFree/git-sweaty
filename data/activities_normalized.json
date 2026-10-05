@@ -37399,5 +37399,18 @@
     "start_date_local": "2026-09-29T05:17:03Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-10-04",
+    "distance": 64396.6,
+    "elevation_gain": 676.0,
+    "id": "20453978733",
+    "moving_time": 7700.0,
+    "name": "Perfection",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-10-04T14:35:43Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
