@@ -25901,6 +25901,33 @@
       "type": "Ride",
       "url": "https://www.strava.com/activities/20453978733",
       "year": 2026
+    },
+    {
+      "date": "2026-10-06",
+      "hour": 19,
+      "name": "Zwift - Loop de loop de loop in Paris",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20483037831",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-06",
+      "hour": 19,
+      "name": "Zwift - Race: Zwift Racing League 26/27: Fast & Fresh : Open Lilac League Division 2 - Race 2 (C)",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20483336152",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-06",
+      "hour": 20,
+      "name": "Zwift - Flat Out Fast in Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20483454256",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49624,6 +49651,17 @@
           "distance": 50357.9,
           "elevation_gain": 347.0,
           "moving_time": 5431.0
+        },
+        "2026-10-06": {
+          "activity_ids": [
+            "20483037831",
+            "20483336152",
+            "20483454256"
+          ],
+          "count": 3,
+          "distance": 53187.7,
+          "elevation_gain": 327.0,
+          "moving_time": 5933.0
         }
       },
       "VirtualRun": {
@@ -50093,7 +50131,7 @@
       }
     }
   },
-  "generated_at": "2026-10-06T19:58:46.333123+00:00",
+  "generated_at": "2026-10-07T20:24:53.244047+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
