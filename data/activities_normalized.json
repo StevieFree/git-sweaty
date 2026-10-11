@@ -37451,5 +37451,57 @@
     "start_date_local": "2026-10-06T20:31:33Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-10-10",
+    "distance": 20848.6,
+    "elevation_gain": 44.0,
+    "id": "20532387133",
+    "moving_time": 2397.0,
+    "name": "Zwift - Flat Out Fast in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-10T12:28:11Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-10",
+    "distance": 22857.0,
+    "elevation_gain": 181.0,
+    "id": "20532648550",
+    "moving_time": 2068.0,
+    "name": "Zwift - Race: Stage 1 - Race - Tour of Watopia 2026",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-10T13:11:22Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-10",
+    "distance": 9284.0,
+    "elevation_gain": 15.0,
+    "id": "20532787235",
+    "moving_time": 1214.0,
+    "name": "Zwift - Tick Tock in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-10T13:46:12Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-11",
+    "distance": 101271.0,
+    "elevation_gain": 424.0,
+    "id": "20542948453",
+    "moving_time": 9952.0,
+    "name": "Betty & Cross",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-11T05:38:49Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
