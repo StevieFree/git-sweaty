@@ -37529,5 +37529,57 @@
     "start_date_local": "2026-10-12T09:44:12Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-10-13",
+    "distance": 7237.1,
+    "elevation_gain": 70.0,
+    "id": "20576133222",
+    "moving_time": 830.0,
+    "name": "Zwift - The 6 Train in New York",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-13T19:32:11Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-13",
+    "distance": 30017.6,
+    "elevation_gain": 254.0,
+    "id": "20576428570",
+    "moving_time": 2729.0,
+    "name": "Zwift - TTT: Zwift Racing League 26/27: Fast & Fresh : Open Lilac League Division 2 - Race 3 (C) \ud83e\udd47",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-13T19:50:17Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-13",
+    "distance": 10119.8,
+    "elevation_gain": 16.0,
+    "id": "20576522107",
+    "moving_time": 1128.0,
+    "name": "Zwift - Tick Tock in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-13T20:36:10Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-14",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "20582141252",
+    "moving_time": 3094.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-10-14T06:57:40Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
