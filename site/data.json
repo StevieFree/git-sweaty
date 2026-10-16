@@ -26018,6 +26018,15 @@
       "type": "WeightTraining",
       "url": "https://www.strava.com/activities/20582141252",
       "year": 2026
+    },
+    {
+      "date": "2026-10-15",
+      "hour": 17,
+      "name": "Group Fun",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20603339915",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49792,6 +49801,15 @@
           "distance": 47374.5,
           "elevation_gain": 340.0,
           "moving_time": 4687.0
+        },
+        "2026-10-15": {
+          "activity_ids": [
+            "20603339915"
+          ],
+          "count": 1,
+          "distance": 57962.4,
+          "elevation_gain": 229.0,
+          "moving_time": 6022.0
         }
       },
       "VirtualRun": {
@@ -50279,7 +50297,7 @@
       }
     }
   },
-  "generated_at": "2026-10-15T18:52:32.083692+00:00",
+  "generated_at": "2026-10-16T18:36:50.924429+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
