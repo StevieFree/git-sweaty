@@ -37594,5 +37594,44 @@
     "start_date_local": "2026-10-15T17:59:00Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-10-17",
+    "distance": 25849.2,
+    "elevation_gain": 66.0,
+    "id": "20620563510",
+    "moving_time": 2780.0,
+    "name": "Zwift - Tick Tock in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-17T05:21:11Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-17",
+    "distance": 20003.5,
+    "elevation_gain": 275.0,
+    "id": "20621018548",
+    "moving_time": 1972.0,
+    "name": "Zwift - Race: Stage 2 - Race - Tour of Watopia 2026 (C)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-17T06:12:23Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-17",
+    "distance": 20056.7,
+    "elevation_gain": 32.0,
+    "id": "20621512395",
+    "moving_time": 2144.0,
+    "name": "Zwift - Tempus Fugit in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-17T06:45:50Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

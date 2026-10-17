@@ -26027,6 +26027,33 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/20603339915",
       "year": 2026
+    },
+    {
+      "date": "2026-10-17",
+      "hour": 5,
+      "name": "Zwift - Tick Tock in Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20620563510",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-17",
+      "hour": 6,
+      "name": "Zwift - Race: Stage 2 - Race - Tour of Watopia 2026 (C)",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20621018548",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-17",
+      "hour": 6,
+      "name": "Zwift - Tempus Fugit in Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20621512395",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49810,6 +49837,17 @@
           "distance": 57962.4,
           "elevation_gain": 229.0,
           "moving_time": 6022.0
+        },
+        "2026-10-17": {
+          "activity_ids": [
+            "20620563510",
+            "20621018548",
+            "20621512395"
+          ],
+          "count": 3,
+          "distance": 65909.4,
+          "elevation_gain": 373.0,
+          "moving_time": 6896.0
         }
       },
       "VirtualRun": {
@@ -50297,7 +50335,7 @@
       }
     }
   },
-  "generated_at": "2026-10-16T18:36:50.924429+00:00",
+  "generated_at": "2026-10-17T17:45:44.365781+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
