@@ -37646,5 +37646,18 @@
     "start_date_local": "2026-10-19T07:05:26Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-10-19",
+    "distance": 40122.6,
+    "elevation_gain": 156.0,
+    "id": "20654173739",
+    "moving_time": 3896.0,
+    "name": "CocoMo",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-19T16:40:03Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
