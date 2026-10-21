@@ -37659,5 +37659,44 @@
     "start_date_local": "2026-10-19T16:40:03Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-10-20",
+    "distance": 17434.9,
+    "elevation_gain": 70.0,
+    "id": "20669277696",
+    "moving_time": 1981.0,
+    "name": "Zwift - Going Coastal in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-20T19:14:04Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-20",
+    "distance": 28720.7,
+    "elevation_gain": 211.0,
+    "id": "20669545603",
+    "moving_time": 2597.0,
+    "name": "Zwift - Race: Zwift Racing League 26/27: Fast & Fresh : Open Lilac League Division 2 - Race 4 (C)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-20T19:49:34Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-20",
+    "distance": 17037.8,
+    "elevation_gain": 65.0,
+    "id": "20669710990",
+    "moving_time": 2059.0,
+    "name": "Zwift - cool",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-20T20:33:16Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
