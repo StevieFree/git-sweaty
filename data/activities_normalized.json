@@ -37711,5 +37711,44 @@
     "start_date_local": "2026-10-21T14:44:43Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-10-24",
+    "distance": 22554.9,
+    "elevation_gain": 175.0,
+    "id": "20711968825",
+    "moving_time": 2290.0,
+    "name": "Zwift - Pacer Group Ride with Maria",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-24T05:31:32Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-24",
+    "distance": 23775.7,
+    "elevation_gain": 269.0,
+    "id": "20712476945",
+    "moving_time": 2314.0,
+    "name": "\ud83e\udd48Zwift - Race: Stage 3 - Race - Tour of Watopia 2026 (C)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-24T06:12:28Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-24",
+    "distance": 34177.3,
+    "elevation_gain": 106.0,
+    "id": "20713276820",
+    "moving_time": 3611.0,
+    "name": "Zwift - Tick Tock in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-24T06:51:53Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

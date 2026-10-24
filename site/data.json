@@ -26108,6 +26108,33 @@
       "type": "WeightTraining",
       "url": "https://www.strava.com/activities/20680462225",
       "year": 2026
+    },
+    {
+      "date": "2026-10-24",
+      "hour": 5,
+      "name": "Zwift - Pacer Group Ride with Maria",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20711968825",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-24",
+      "hour": 6,
+      "name": "\ud83e\udd48Zwift - Race: Stage 3 - Race - Tour of Watopia 2026 (C)",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20712476945",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-24",
+      "hour": 6,
+      "name": "Zwift - Tick Tock in Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20713276820",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49922,6 +49949,17 @@
           "distance": 63193.40000000001,
           "elevation_gain": 346.0,
           "moving_time": 6637.0
+        },
+        "2026-10-24": {
+          "activity_ids": [
+            "20711968825",
+            "20712476945",
+            "20713276820"
+          ],
+          "count": 3,
+          "distance": 80507.90000000001,
+          "elevation_gain": 550.0,
+          "moving_time": 8215.0
         }
       },
       "VirtualRun": {
@@ -50427,7 +50465,7 @@
       }
     }
   },
-  "generated_at": "2026-10-23T18:53:12.555009+00:00",
+  "generated_at": "2026-10-24T17:49:54.509891+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
