@@ -37750,5 +37750,18 @@
     "start_date_local": "2026-10-24T06:51:53Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-10-25",
+    "distance": 120189.0,
+    "elevation_gain": 846.0,
+    "id": "20727082877",
+    "moving_time": 12004.0,
+    "name": "Practice",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-25T05:30:20Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

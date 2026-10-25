@@ -26135,6 +26135,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/20713276820",
       "year": 2026
+    },
+    {
+      "date": "2026-10-25",
+      "hour": 5,
+      "name": "Practice",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20727082877",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -49960,6 +49969,15 @@
           "distance": 80507.90000000001,
           "elevation_gain": 550.0,
           "moving_time": 8215.0
+        },
+        "2026-10-25": {
+          "activity_ids": [
+            "20727082877"
+          ],
+          "count": 1,
+          "distance": 120189.0,
+          "elevation_gain": 846.0,
+          "moving_time": 12004.0
         }
       },
       "VirtualRun": {
@@ -50465,7 +50483,7 @@
       }
     }
   },
-  "generated_at": "2026-10-24T17:49:54.509891+00:00",
+  "generated_at": "2026-10-25T18:07:44.156454+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
