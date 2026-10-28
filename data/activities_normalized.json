@@ -37789,5 +37789,44 @@
     "start_date_local": "2026-10-26T17:02:52Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-10-27",
+    "distance": 20213.0,
+    "elevation_gain": 62.0,
+    "id": "20759500819",
+    "moving_time": 2297.0,
+    "name": "Let the Games Begin",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-27T19:06:30Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-27",
+    "distance": 24199.4,
+    "elevation_gain": 283.0,
+    "id": "20759758949",
+    "moving_time": 2365.0,
+    "name": "Zwift - Race: Zwift Racing League 26/27: Fast & Fresh : Open Lilac League Division 2 - Race 5 (C)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-27T19:49:21Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-27",
+    "distance": 10059.0,
+    "elevation_gain": 16.0,
+    "id": "20759867926",
+    "moving_time": 1310.0,
+    "name": "Zwift - California Roll in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-27T20:29:26Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
