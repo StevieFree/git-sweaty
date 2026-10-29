@@ -26189,6 +26189,24 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/20759867926",
       "year": 2026
+    },
+    {
+      "date": "2026-10-28",
+      "hour": 15,
+      "name": "Afternoon Weight Training",
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "url": "https://www.strava.com/activities/20771494221",
+      "year": 2026
+    },
+    {
+      "date": "2026-10-29",
+      "hour": 5,
+      "name": "Flush the Legs",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20777925962",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -50043,6 +50061,15 @@
           "distance": 54471.4,
           "elevation_gain": 361.0,
           "moving_time": 5972.0
+        },
+        "2026-10-29": {
+          "activity_ids": [
+            "20777925962"
+          ],
+          "count": 1,
+          "distance": 53762.9,
+          "elevation_gain": 210.0,
+          "moving_time": 5482.0
         }
       },
       "VirtualRun": {
@@ -50542,6 +50569,15 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 1424.0
+        },
+        "2026-10-28": {
+          "activity_ids": [
+            "20771494221"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 3449.0
         }
       },
       "Workout": {
@@ -50557,7 +50593,7 @@
       }
     }
   },
-  "generated_at": "2026-10-28T20:04:01.281374+00:00",
+  "generated_at": "2026-10-29T20:03:49.588762+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
