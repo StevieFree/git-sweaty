@@ -37854,5 +37854,57 @@
     "start_date_local": "2026-10-29T05:15:16Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-10-30",
+    "distance": 28940.1,
+    "elevation_gain": 202.0,
+    "id": "20795810882",
+    "moving_time": 3296.0,
+    "name": "The Midnight Sun Road in Video",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-30T14:20:34Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-31",
+    "distance": 17615.8,
+    "elevation_gain": 93.0,
+    "id": "20802911334",
+    "moving_time": 1962.0,
+    "name": "Zwift - Seafoam Circuit in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-31T05:36:33Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-31",
+    "distance": 21542.8,
+    "elevation_gain": 108.0,
+    "id": "20803439714",
+    "moving_time": 1967.0,
+    "name": "Zwift - Race: Stage 4 - Race - Tour of Watopia 2026 (C)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-31T06:12:34Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-10-31",
+    "distance": 28964.7,
+    "elevation_gain": 106.0,
+    "id": "20804177880",
+    "moving_time": 2944.0,
+    "name": "Zwift - Pacer Group Ride with Maria",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-10-31T06:45:48Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
