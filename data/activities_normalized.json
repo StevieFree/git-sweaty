@@ -37906,5 +37906,18 @@
     "start_date_local": "2026-10-31T06:45:48Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-11-01",
+    "distance": 113709.0,
+    "elevation_gain": 390.0,
+    "id": "20818307718",
+    "moving_time": 11426.0,
+    "name": "Sunday Cycle",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-01T04:22:21Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
