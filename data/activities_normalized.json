@@ -37919,5 +37919,31 @@
     "start_date_local": "2026-11-01T04:22:21Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-11-02",
+    "distance": 15453.3,
+    "elevation_gain": 89.0,
+    "id": "20835664374",
+    "moving_time": 2069.0,
+    "name": "Zwift - Dolores Dirt in Video",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-02T15:25:52Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-02",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "20835849405",
+    "moving_time": 611.0,
+    "name": "Afternoon Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-11-02T17:08:21Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
