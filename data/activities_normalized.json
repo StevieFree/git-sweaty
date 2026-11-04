@@ -37945,5 +37945,57 @@
     "start_date_local": "2026-11-02T17:08:21Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-11-03",
+    "distance": 13522.9,
+    "elevation_gain": 36.0,
+    "id": "20849624498",
+    "moving_time": 1432.0,
+    "name": "Zwift - Crit Cross in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-03T15:45:00Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-03",
+    "distance": 23317.6,
+    "elevation_gain": 216.0,
+    "id": "20850046083",
+    "moving_time": 2168.0,
+    "name": "Zwift - Race: Stage 5 - Race - Tour of Watopia 2026 (B) \ud83e\udd48",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-03T16:11:37Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-03",
+    "distance": 12117.2,
+    "elevation_gain": 37.0,
+    "id": "20850299994",
+    "moving_time": 1434.0,
+    "name": "Zwift - Caldera Coaster in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-03T16:48:26Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-04",
+    "distance": 0.0,
+    "elevation_gain": 0.0,
+    "id": "20857221162",
+    "moving_time": 2826.0,
+    "name": "Morning Weight Training",
+    "raw_activity_type": "WeightTraining",
+    "raw_type": "WeightTraining",
+    "start_date_local": "2026-11-04T07:42:55Z",
+    "type": "WeightTraining",
+    "year": 2026
   }
 ]
