@@ -37997,5 +37997,18 @@
     "start_date_local": "2026-11-04T07:42:55Z",
     "type": "WeightTraining",
     "year": 2026
+  },
+  {
+    "date": "2026-11-05",
+    "distance": 54722.8,
+    "elevation_gain": 452.0,
+    "id": "20876623372",
+    "moving_time": 5690.0,
+    "name": "Zwift - Pacer Group Ride with Betty",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-05T15:12:41Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
