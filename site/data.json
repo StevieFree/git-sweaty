@@ -26315,6 +26315,24 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/20876623372",
       "year": 2026
+    },
+    {
+      "date": "2026-11-07",
+      "hour": 12,
+      "name": "Zwift - Intensive Aerobic x 4",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20900411757",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-08",
+      "hour": 8,
+      "name": "Zwift - Big Flat 8 in Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/20912418054",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -50236,6 +50254,24 @@
           "distance": 54722.8,
           "elevation_gain": 452.0,
           "moving_time": 5690.0
+        },
+        "2026-11-07": {
+          "activity_ids": [
+            "20900411757"
+          ],
+          "count": 1,
+          "distance": 52885.9,
+          "elevation_gain": 407.0,
+          "moving_time": 6021.0
+        },
+        "2026-11-08": {
+          "activity_ids": [
+            "20912418054"
+          ],
+          "count": 1,
+          "distance": 100560.0,
+          "elevation_gain": 323.0,
+          "moving_time": 10743.0
         }
       },
       "VirtualRun": {
@@ -50777,7 +50813,7 @@
       }
     }
   },
-  "generated_at": "2026-11-07T19:15:32.150459+00:00",
+  "generated_at": "2026-11-08T19:19:43.940777+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",

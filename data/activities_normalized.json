@@ -38010,5 +38010,31 @@
     "start_date_local": "2026-11-05T15:12:41Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-11-07",
+    "distance": 52885.9,
+    "elevation_gain": 407.0,
+    "id": "20900411757",
+    "moving_time": 6021.0,
+    "name": "Zwift - Intensive Aerobic x 4",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-07T12:55:42Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-08",
+    "distance": 100560.0,
+    "elevation_gain": 323.0,
+    "id": "20912418054",
+    "moving_time": 10743.0,
+    "name": "Zwift - Big Flat 8 in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-08T08:17:47Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
