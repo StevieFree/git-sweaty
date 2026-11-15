@@ -38049,5 +38049,18 @@
     "start_date_local": "2026-11-10T05:57:54Z",
     "type": "Run",
     "year": 2026
+  },
+  {
+    "date": "2026-11-14",
+    "distance": 71569.2,
+    "elevation_gain": 673.0,
+    "id": "20989837720",
+    "moving_time": 8488.0,
+    "name": "The Gray Man Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-11-14T13:31:00Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
