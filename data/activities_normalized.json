@@ -38062,5 +38062,18 @@
     "start_date_local": "2026-11-14T13:31:00Z",
     "type": "Ride",
     "year": 2026
+  },
+  {
+    "date": "2026-11-15",
+    "distance": 72652.5,
+    "elevation_gain": 112.0,
+    "id": "21002880495",
+    "moving_time": 7063.0,
+    "name": "Zwift - Pacer Group Ride with Maria",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-15T14:05:54Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
