@@ -38075,5 +38075,44 @@
     "start_date_local": "2026-11-15T14:05:54Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-11-17",
+    "distance": 20819.2,
+    "elevation_gain": 32.0,
+    "id": "21029200370",
+    "moving_time": 2248.0,
+    "name": "Zwift - Tempus Fugit in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-17T19:02:25Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-17",
+    "distance": 31945.6,
+    "elevation_gain": 214.0,
+    "id": "21029532903",
+    "moving_time": 2882.0,
+    "name": "Zwift - TTT: Zwift Racing League 2026/27 Round 2: Team Tempo - Open Lavender League Division 1 (C)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-17T19:45:14Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-17",
+    "distance": 16116.2,
+    "elevation_gain": 28.0,
+    "id": "21029687379",
+    "moving_time": 1808.0,
+    "name": "Zwift -",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-17T20:33:36Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

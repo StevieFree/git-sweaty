@@ -26360,6 +26360,33 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/21002880495",
       "year": 2026
+    },
+    {
+      "date": "2026-11-17",
+      "hour": 19,
+      "name": "Zwift - Tempus Fugit in Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21029200370",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-17",
+      "hour": 19,
+      "name": "Zwift - TTT: Zwift Racing League 2026/27 Round 2: Team Tempo - Open Lavender League Division 1 (C)",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21029532903",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-17",
+      "hour": 20,
+      "name": "Zwift -",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21029687379",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -50326,6 +50353,17 @@
           "distance": 72652.5,
           "elevation_gain": 112.0,
           "moving_time": 7063.0
+        },
+        "2026-11-17": {
+          "activity_ids": [
+            "21029200370",
+            "21029532903",
+            "21029687379"
+          ],
+          "count": 3,
+          "distance": 68881.0,
+          "elevation_gain": 274.0,
+          "moving_time": 6938.0
         }
       },
       "VirtualRun": {
@@ -50867,7 +50905,7 @@
       }
     }
   },
-  "generated_at": "2026-11-17T22:46:20.423530+00:00",
+  "generated_at": "2026-11-18T22:28:47.723643+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
