@@ -38114,5 +38114,18 @@
     "start_date_local": "2026-11-17T20:33:36Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-11-18",
+    "distance": 54149.1,
+    "elevation_gain": 383.0,
+    "id": "21042479825",
+    "moving_time": 6447.0,
+    "name": "Zwift - Pacific Pursuit in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-18T19:48:47Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]
