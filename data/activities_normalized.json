@@ -38127,5 +38127,57 @@
     "start_date_local": "2026-11-18T19:48:47Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-11-21",
+    "distance": 14270.7,
+    "elevation_gain": 95.0,
+    "id": "21074388993",
+    "moving_time": 1590.0,
+    "name": "Zwift - Seaside Sprint in Watopia",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-21T11:41:17Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-21",
+    "distance": 23841.7,
+    "elevation_gain": 210.0,
+    "id": "21074737058",
+    "moving_time": 2153.0,
+    "name": "Zwift - Race: Stage 2 - ZRacing - Watopia Islands - The Classic (B)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-21T12:11:14Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-21",
+    "distance": 16710.1,
+    "elevation_gain": 176.6,
+    "id": "21075045136",
+    "moving_time": 2112.0,
+    "name": "Zwift - Clarence Drive in Video",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-21T12:49:08Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-21",
+    "distance": 6161.7,
+    "elevation_gain": 26.8,
+    "id": "21075132781",
+    "moving_time": 545.0,
+    "name": "Zwift - Glen Etive in Video",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-21T13:26:34Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

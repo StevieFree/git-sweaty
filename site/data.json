@@ -26396,6 +26396,42 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/21042479825",
       "year": 2026
+    },
+    {
+      "date": "2026-11-21",
+      "hour": 11,
+      "name": "Zwift - Seaside Sprint in Watopia",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21074388993",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-21",
+      "hour": 12,
+      "name": "Zwift - Race: Stage 2 - ZRacing - Watopia Islands - The Classic (B)",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21074737058",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-21",
+      "hour": 12,
+      "name": "Zwift - Clarence Drive in Video",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21075045136",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-21",
+      "hour": 13,
+      "name": "Zwift - Glen Etive in Video",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21075132781",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -50382,6 +50418,18 @@
           "distance": 54149.1,
           "elevation_gain": 383.0,
           "moving_time": 6447.0
+        },
+        "2026-11-21": {
+          "activity_ids": [
+            "21074388993",
+            "21074737058",
+            "21075045136",
+            "21075132781"
+          ],
+          "count": 4,
+          "distance": 60984.2,
+          "elevation_gain": 508.40000000000003,
+          "moving_time": 6400.0
         }
       },
       "VirtualRun": {
@@ -50923,7 +50971,7 @@
       }
     }
   },
-  "generated_at": "2026-11-20T22:06:49.784309+00:00",
+  "generated_at": "2026-11-21T20:46:12.188086+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
