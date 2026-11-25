@@ -38205,5 +38205,44 @@
     "start_date_local": "2026-11-23T20:26:45Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-11-24",
+    "distance": 15348.2,
+    "elevation_gain": 67.0,
+    "id": "21114779079",
+    "moving_time": 1772.0,
+    "name": "Zwift - Greater London Flat in London",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-24T18:59:12Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-24",
+    "distance": 27763.7,
+    "elevation_gain": 410.0,
+    "id": "21115089183",
+    "moving_time": 2904.0,
+    "name": "Zwift - Race: Zwift Racing League 2026/27 Round 2: Team Tempo - Open Lavender League Division 1 - Race 2 (C)",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-24T19:35:28Z",
+    "type": "VirtualRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-11-24",
+    "distance": 12485.0,
+    "elevation_gain": 53.0,
+    "id": "21115216159",
+    "moving_time": 1600.0,
+    "name": "Zwift -",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-24T20:24:22Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

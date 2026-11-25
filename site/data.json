@@ -26450,6 +26450,33 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/21102636935",
       "year": 2026
+    },
+    {
+      "date": "2026-11-24",
+      "hour": 18,
+      "name": "Zwift - Greater London Flat in London",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21114779079",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-24",
+      "hour": 19,
+      "name": "Zwift - Race: Zwift Racing League 2026/27 Round 2: Team Tempo - Open Lavender League Division 1 - Race 2 (C)",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21115089183",
+      "year": 2026
+    },
+    {
+      "date": "2026-11-24",
+      "hour": 20,
+      "name": "Zwift -",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21115216159",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -50466,6 +50493,17 @@
           "distance": 22875.3,
           "elevation_gain": 66.0,
           "moving_time": 2717.0
+        },
+        "2026-11-24": {
+          "activity_ids": [
+            "21114779079",
+            "21115089183",
+            "21115216159"
+          ],
+          "count": 3,
+          "distance": 55596.9,
+          "elevation_gain": 530.0,
+          "moving_time": 6276.0
         }
       },
       "VirtualRun": {
@@ -51007,7 +51045,7 @@
       }
     }
   },
-  "generated_at": "2026-11-24T23:45:28.857473+00:00",
+  "generated_at": "2026-11-25T23:28:18.772778+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
