@@ -38244,5 +38244,18 @@
     "start_date_local": "2026-11-24T20:24:22Z",
     "type": "VirtualRide",
     "year": 2026
+  },
+  {
+    "date": "2026-11-26",
+    "distance": 68008.7,
+    "elevation_gain": 620.0,
+    "id": "21133242273",
+    "moving_time": 7925.0,
+    "name": "Zwift - Aerobic Strength Intervals",
+    "raw_activity_type": "VirtualRide",
+    "raw_type": "VirtualRide",
+    "start_date_local": "2026-11-26T07:52:20Z",
+    "type": "VirtualRide",
+    "year": 2026
   }
 ]

@@ -26477,6 +26477,15 @@
       "type": "VirtualRide",
       "url": "https://www.strava.com/activities/21115216159",
       "year": 2026
+    },
+    {
+      "date": "2026-11-26",
+      "hour": 7,
+      "name": "Zwift - Aerobic Strength Intervals",
+      "subtype": "VirtualRide",
+      "type": "VirtualRide",
+      "url": "https://www.strava.com/activities/21133242273",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -50504,6 +50513,15 @@
           "distance": 55596.9,
           "elevation_gain": 530.0,
           "moving_time": 6276.0
+        },
+        "2026-11-26": {
+          "activity_ids": [
+            "21133242273"
+          ],
+          "count": 1,
+          "distance": 68008.7,
+          "elevation_gain": 620.0,
+          "moving_time": 7925.0
         }
       },
       "VirtualRun": {
@@ -51045,7 +51063,7 @@
       }
     }
   },
-  "generated_at": "2026-11-25T23:28:18.772778+00:00",
+  "generated_at": "2026-11-26T23:29:03.846906+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/3007926",
   "repo": "StevieFree/git-sweaty",
